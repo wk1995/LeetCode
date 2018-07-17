@@ -29,11 +29,13 @@ object StaticMethod {
     /**
      * 遍历二维数组
      * */
-     fun ergodicTwoDimensionalArray(a: Array<IntArray>) {
+     fun <T> ergodicTwoDimensionalArray(a: Array<Array<T>>) {
         for (i in a.indices) {
-            for (j in 0 until a[i].size - 1)
+            for (j in 0 until a[i].size )
                 print(a[i][j].toString() + ",")
             println()
         }
     }
+
+
 }
