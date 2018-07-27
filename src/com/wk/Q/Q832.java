@@ -15,7 +15,7 @@ import com.wk.StaticMethod;
 public class Q832 implements Q {
     @Override
     public void answer() {
-        int[][] A={{1,1,0},{1,0,1},{0,0,0}};
+        Integer[][] A={{1,1,0},{1,0,1},{0,0,0}};
         for(int i=0;i<A.length;i++){
             swapArray(A[i]);
         }
@@ -27,7 +27,7 @@ public class Q832 implements Q {
 
     }
 
-    private static void swapArray(int[] a){
+    private static void swapArray(Integer[] a){
         for(int j=0;j<=a.length/2-1;j++){
             a[j]=a[j]^a[a.length-1-j];
             a[a.length-1-j]=a[j]^a[a.length-1-j];
