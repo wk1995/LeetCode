@@ -1,4 +1,4 @@
-package com.wk;
+package com.wk.data.structure;
 
 /**
  * <pre>

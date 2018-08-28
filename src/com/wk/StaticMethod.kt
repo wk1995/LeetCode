@@ -1,11 +1,13 @@
 package com.wk
 
+import com.wk.data.structure.TreeNode
+
 /**
  * <pre>
  *      author : wk
  *      e-mail : 1226426603@qq.com
  *      time   : 2018/07/17
- *      desc   :
+ *      desc   : 静态方法
  *      GitHub : https://github.com/wk1995
  *      CSDN   : http://blog.csdn.net/qq_33882671
  * </pre>
@@ -37,5 +39,17 @@ object StaticMethod {
         }
     }
 
+    //前序
+    fun ergodicTreeForwardOrder(treeNode : TreeNode){
 
+    }
+
+    //中序
+    fun ergodicTreeMediumOrder (treeNode : TreeNode){
+
+    }
+    //后序
+    fun ergodicTreeBehindOrder (treeNode : TreeNode){
+
+    }
 }
