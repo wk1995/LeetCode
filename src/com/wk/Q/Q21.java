@@ -1,10 +1,9 @@
 package com.wk.Q;
 
-<<<<<<< Updated upstream
-=======
+
 import com.wk.data.structure.ListNode;
 
->>>>>>> Stashed changes
+
 /**
  * <pre>
  *      author : wk
@@ -20,7 +19,7 @@ import com.wk.data.structure.ListNode;
           输入：1->2->4, 1->3->4
           输出：1->1->2->3->4->4
  *
->>>>>>> Stashed changes
+
  *      GitHub : https://github.com/wk1995
  *      CSDN   : http://blog.csdn.net/qq_33882671
  * </pre>
