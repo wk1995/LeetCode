@@ -12,11 +12,11 @@ import java.util.List;
  *      CSDN   : http://blog.csdn.net/qq_33882671
  * </pre>
  */
-public class Node {
+public class NaturalTree {
     public int val;
-    public List<Node> children;
+    public List<NaturalTree> children;
 
-    public Node(int val,List<Node> children) {
+    public NaturalTree(int val, List<NaturalTree> children) {
         this.val = val;
         this.children = children;
     }
