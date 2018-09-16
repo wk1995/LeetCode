@@ -10,12 +10,12 @@ package com.wk.data.structure;
  *      CSDN   : http://blog.csdn.net/qq_33882671
  * </pre>
  */
-public class TreeNode {
+public class TwoForkTree {
     public int val;
-    public TreeNode left;
-    public TreeNode right;
+    public TwoForkTree left;
+    public TwoForkTree right;
 
-    public TreeNode(int x) {
+    public TwoForkTree(int x) {
         val = x;
     }
 }
