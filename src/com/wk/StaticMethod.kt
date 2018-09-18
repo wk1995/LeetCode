@@ -1,6 +1,8 @@
 package com.wk
 
-import com.wk.data.structure.TreeNode
+import com.wk.data.structure.ListNode
+import com.wk.data.structure.NaturalTree
+import com.wk.data.structure.TwoForkTree
 
 /**
  * <pre>
@@ -17,7 +19,7 @@ object StaticMethod {
     /**
      * 遍历List
      * */
-     fun ergodicList(list: List<*>) {
+    fun ergodicList(list: List<*>) {
         if (list.isEmpty()) {
             println("无数据")
         }
@@ -31,25 +33,53 @@ object StaticMethod {
     /**
      * 遍历二维数组
      * */
-     fun <T> ergodicTwoDimensionalArray(a: Array<Array<T>>) {
+    fun <T> ergodicTwoDimensionalArray(a: Array<Array<T>>) {
         for (i in a.indices) {
-            for (j in 0 until a[i].size )
+            for (j in 0 until a[i].size)
                 print(a[i][j].toString() + ",")
             println()
         }
     }
 
     //前序
-    fun ergodicTreeForwardOrder(treeNode : TreeNode){
+    const val ForwardOrder=0
+    //遍历N叉树
+    fun ergodicNaturalTreeOrder(naturalTree: NaturalTree?,order:Int=ForwardOrder): StringBuilder {
+        if (naturalTree?.children?.size?:-1<order)
+            return ergodicNaturalTreeOrder(naturalTree)
 
+        val result = StringBuilder()
+        if (naturalTree == null) {
+            return result
+        } else {
+            val children=naturalTree.children
+            if(children==null ||children.isEmpty()) {
+                result.append("${naturalTree.`val`}->")
+                return result
+            }
+            var i=0
+            var hasForward=false
+            while (i<children.size){
+                if(i==order && !hasForward) {
+                    result.append("${naturalTree.`val`}->")
+                    hasForward=true
+                    continue
+                }
+                result.append(ergodicNaturalTreeOrder(children[i]))
+                i++
+            }
+
+        }
+        return result
     }
 
-    //中序
-    fun ergodicTreeMediumOrder (treeNode : TreeNode){
+    //遍历单链表
+    fun ergodicListNode(listNode: ListNode?): String? {
+        if (listNode == null) return null
+        val result = StringBuilder()
+        result.append("${listNode.`val`}->")
+        result.append(ergodicListNode(listNode.next) ?: "")
 
-    }
-    //后序
-    fun ergodicTreeBehindOrder (treeNode : TreeNode){
-
+        return result.toString()
     }
 }
