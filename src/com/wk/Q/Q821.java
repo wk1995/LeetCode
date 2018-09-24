@@ -1,7 +1,5 @@
 package com.wk.Q;
 
-import com.wk.StaticMethod;
-
 import java.util.ArrayList;
 
 /**
