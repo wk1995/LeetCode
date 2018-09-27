@@ -22,7 +22,7 @@ public class Q589 extends QNaturalTree {
     public void answer() {
 //        preorder(naturalTreeRoot);
         List<Integer> list=ergodic(naturalTreeRoot,StaticMethod.ForwardOrder);
-        StaticMethod.INSTANCE.ergodicList(list);
+        System.out.println(StaticMethod.INSTANCE.ergodicList(list));
     }
     private void  preorder(NaturalTree root) {
         System.out.println(StaticMethod.INSTANCE.ergodicNaturalTreeOrder(root,StaticMethod.ForwardOrder));

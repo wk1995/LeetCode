@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f6ecfd2-d886-407c-b390-0e8e16ea09b4" name="Default" comment="提交Q559(N叉树的最大深度)答案">
-      <change afterPath="$PROJECT_DIR$/src/com/wk/Q/Q429.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wk/Q/QNaturalTree.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/wk/StaticMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/StaticMethod.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/wk/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wk/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/wk/Q/Q589.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wk/Q/Q589.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/wk/Q/Q590.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wk/Q/Q590.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/wk/Q/Q728.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wk/Q/Q728.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/wk/Q/Q811.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wk/Q/Q811.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/wk/Q/QNaturalTree.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wk/Q/QNaturalTree.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/wk/StaticMethod.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wk/StaticMethod.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -26,47 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wk/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QNaturalTree.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wk/Q/QNaturalTree.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-              <folding>
-                <element signature="e#18#112#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Q590.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q590.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StaticMethod.kt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StaticMethod.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/wk/StaticMethod.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+            <state relative-caret-position="175">
+              <caret line="20" column="23" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -74,8 +39,8 @@
       <file leaf-file-name="Q811.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q811.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
+            <state relative-caret-position="310">
+              <caret line="67" column="66" selection-start-line="67" selection-start-column="66" selection-end-line="67" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -84,7 +49,19 @@
         <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q728.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="243">
-              <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+              <caret line="27" column="67" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QNaturalTree.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wk/Q/QNaturalTree.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="526">
+              <caret line="37" column="20" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="20" />
+              <folding>
+                <element signature="e#18#112#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,8 +69,8 @@
       <file leaf-file-name="Q589.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q589.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+            <state relative-caret-position="134">
+              <caret line="24" column="66" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,33 +78,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Q429.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Q590.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q590.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Q429.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q429.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+            <state relative-caret-position="148">
+              <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#way#0;class#Q429#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Iterable.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Iterable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1188">
-              <caret line="71" column="33" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Consumer.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/function/Consumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -150,14 +121,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/wk/Q/Q476.java" />
-        <option value="$PROJECT_DIR$/src/com/wk/Q/Q728.java" />
         <option value="$PROJECT_DIR$/src/com/wk/Q/Q617.java" />
         <option value="$PROJECT_DIR$/src/com/wk/Q/Q709.java" />
         <option value="$PROJECT_DIR$/src/com/wk/Q/Q344.java" />
         <option value="$PROJECT_DIR$/src/com/wk/Q/Q557.java" />
         <option value="$PROJECT_DIR$/src/com/wk/Q/Q171.java" />
         <option value="$PROJECT_DIR$/src/com/wk/Q/Q867.java" />
-        <option value="$PROJECT_DIR$/src/com/wk/Q/Q811.java" />
         <option value="$PROJECT_DIR$/src/com/wk/Q/Q258.java" />
         <option value="$PROJECT_DIR$/src/com/wk/Q/Q821.java" />
         <option value="$PROJECT_DIR$/src/com/wk/ListNode.java" />
@@ -168,14 +137,16 @@
         <option value="$PROJECT_DIR$/src/com/wk/data/structure/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/com/wk/data/structure/Node.java" />
         <option value="$PROJECT_DIR$/src/com/wk/QNaturalTree.kt" />
-        <option value="$PROJECT_DIR$/src/com/wk/Q/Q589.java" />
         <option value="$PROJECT_DIR$/src/com/wk/data/structure/NaturalTree.java" />
-        <option value="$PROJECT_DIR$/src/com/wk/Q/Q590.java" />
-        <option value="$PROJECT_DIR$/src/com/wk/Q/QNaturalTree.kt" />
         <option value="$PROJECT_DIR$/src/com/wk/Q/Q559.kt" />
         <option value="$PROJECT_DIR$/src/com/wk/Main.java" />
         <option value="$PROJECT_DIR$/src/com/wk/StaticMethod.kt" />
+        <option value="$PROJECT_DIR$/src/com/wk/Q/QNaturalTree.kt" />
         <option value="$PROJECT_DIR$/src/com/wk/Q/Q429.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/Q/Q589.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/Q/Q728.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/Q/Q590.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/Q/Q811.java" />
       </list>
     </option>
   </component>
@@ -362,7 +333,7 @@
       <workItem from="1537280458651" duration="7581000" />
       <workItem from="1537758182385" duration="3031000" />
       <workItem from="1537833050786" duration="1508000" />
-      <workItem from="1537886880498" duration="4285000" />
+      <workItem from="1537886880498" duration="4721000" />
     </task>
     <task id="LOCAL-00001" summary="添加一些曾经写过的题目">
       <created>1531784867811</created>
@@ -567,11 +538,25 @@
       <option name="project" value="LOCAL" />
       <updated>1537760442679</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="提交Q429(N叉树的层序遍历)答案">
+      <created>1538007347680</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1538007347680</updated>
+    </task>
+    <task id="LOCAL-00031" summary="重构：采用模板模式，把有N叉树的题目都继承一父类，减少相同代码">
+      <created>1538007464517</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1538007464517</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92441000" />
+    <option name="totallyTimeSpent" value="92877000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -587,11 +572,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924013" weight="0.3279743" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924013" visible="true" weight="0.329582" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924013" visible="true" weight="0.329582" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2526475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2526475" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -641,8 +626,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="提交617（合并二叉树）题目答案" />
-    <MESSAGE value="提交709（转换成小写字母）题目答案" />
     <MESSAGE value="提交344（反转字符串）题目答案" />
     <MESSAGE value="提交557（反转字符串中的单词 III）题目答案" />
     <MESSAGE value="kotlin jar包" />
@@ -666,7 +649,9 @@
     <MESSAGE value="提交Q559(N叉树的最大深度)答案" />
     <MESSAGE value="提交Q7(反转整数)答案" />
     <MESSAGE value="提交Q821(字符的最短距离)答案" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交Q821(字符的最短距离)答案" />
+    <MESSAGE value="提交Q429(N叉树的层序遍历)答案" />
+    <MESSAGE value="重构：采用模板模式，把有N叉树的题目都继承一父类，减少相同代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="重构：采用模板模式，把有N叉树的题目都继承一父类，减少相同代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1018,50 +1003,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q589.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q728.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q811.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q590.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/QNaturalTree.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-          <folding>
-            <element signature="e#18#112#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wk/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -1072,21 +1013,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/StaticMethod.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q429.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
+        <state relative-caret-position="148">
+          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#way#0;class#Q429#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q590.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="20" column="67" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q589.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="24" column="66" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/QNaturalTree.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="37" column="20" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="20" />
+          <folding>
+            <element signature="e#18#112#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q728.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="27" column="67" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q811.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="67" column="66" selection-start-line="67" selection-start-column="66" selection-end-line="67" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/StaticMethod.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="23" />
         </state>
       </provider>
     </entry>

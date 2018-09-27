@@ -25,7 +25,7 @@ public class Q728 implements Q {
             if(way(i))
                 list.add(i);
         }
-        StaticMethod.INSTANCE.ergodicList(list);
+        System.out.println(StaticMethod.INSTANCE.ergodicList(list));
 
     }
     private  boolean way(int j){

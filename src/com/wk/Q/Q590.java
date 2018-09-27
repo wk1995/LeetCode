@@ -18,6 +18,6 @@ public class Q590 extends QNaturalTree {
     @Override
     public void answer() {
         List<Integer> list=ergodic(naturalTreeRoot,StaticMethod.PostOrder);
-        StaticMethod.INSTANCE.ergodicList(list);
+        System.out.println(StaticMethod.INSTANCE.ergodicList(list));
     }
 }

@@ -58,4 +58,7 @@ abstract class QNaturalTree : Q {
         return nodeList
     }
 
+    override fun answer() {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
 }

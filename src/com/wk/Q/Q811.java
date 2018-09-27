@@ -65,7 +65,7 @@ public class Q811 implements Q {
             sb.append(entry.getKey());
             list.add(sb.toString());
         }
-        StaticMethod.INSTANCE.ergodicList(list);
+        System.out.println(StaticMethod.INSTANCE.ergodicList(list));
     }
     private HashMap<String,Integer> count(HashMap<String,Integer> map,int count,String domainName){
         Integer value=(Integer)map.get(domainName);
