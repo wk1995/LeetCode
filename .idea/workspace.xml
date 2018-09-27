@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6abdcb6f-ce65-4187-a4c4-5eb375ba3d62" name="Default" comment="提交">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Main.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q344.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q476.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q557.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q617$TreeNode.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q617.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q7.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q709.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q728.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q8.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q832.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q852.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/StaticMethod.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    <list default="true" id="6f6ecfd2-d886-407c-b390-0e8e16ea09b4" name="Default" comment="提交Q559(N叉树的最大深度)答案">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wk/Q/Q108.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wk/Q/Q171.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wk/Q/Q21.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wk/Q/Q258.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wk/Q/Q429.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wk/Q/Q559.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wk/Q/Q589.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wk/Q/Q590.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wk/Q/Q811.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wk/Q/Q821.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wk/Q/Q867.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wk/Q/QNaturalTree.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wk/data/structure/ListNode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wk/data/structure/NaturalTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wk/data/structure/TwoForkTree.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q5.class" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/LeetCode/com/wk/StaticMethod.class" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/StaticMethod.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/wk/Main.java" afterPath="$PROJECT_DIR$/src/com/wk/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/wk/Q/Q7.java" afterPath="$PROJECT_DIR$/src/com/wk/Q/Q7.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/wk/Q/Q728.java" afterPath="$PROJECT_DIR$/src/com/wk/Q/Q728.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/wk/StaticMethod.kt" afterPath="$PROJECT_DIR$/src/com/wk/StaticMethod.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,17 +43,9 @@
               <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <marker date="1538042457252" expanded="false" signature="187:193" ph=" }" />
+                <marker date="1538042457252" expanded="true" signature="231:935" ph="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Q.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -85,21 +83,13 @@
       <file leaf-file-name="Q7.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q7.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1025">
-              <caret line="41" column="31" lean-forward="false" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="31" />
+            <state relative-caret-position="950">
+              <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="31" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1538042457289" expanded="true" signature="19:542" ph="/**...*/" />
+                <marker date="1538042457289" expanded="true" signature="614:1390" ph="{...}" />
+                <marker date="1538042457289" expanded="true" signature="1432:1654" ph="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Q8.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q8.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1675">
-              <caret line="67" column="14" lean-forward="false" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -114,12 +104,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Q10.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Q10.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q10.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="350">
-              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+              <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Q811.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q811.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="685">
+              <caret line="67" column="66" lean-forward="false" selection-start-line="67" selection-start-column="66" selection-end-line="67" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QNaturalTree.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/wk/Q/QNaturalTree.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-199">
+              <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+              <folding>
+                <element signature="e#18#112#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,21 +168,33 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/wk/Q5.java" />
-        <option value="$PROJECT_DIR$/src/com/wk/Q728.java" />
-        <option value="$PROJECT_DIR$/src/com/wk/Q852.java" />
-        <option value="$PROJECT_DIR$/src/com/wk/Q832.java" />
-        <option value="$PROJECT_DIR$/src/com/wk/Q.kt" />
-        <option value="$PROJECT_DIR$/src/com/wk/Q/Q5.kt" />
-        <option value="$PROJECT_DIR$/src/com/wk/StaticMothod.kt" />
-        <option value="$PROJECT_DIR$/src/com/wk/Q/Q832.java" />
-        <option value="$PROJECT_DIR$/src/com/wk/StaticMethod.kt" />
-        <option value="$PROJECT_DIR$/src/com/wk/Q/Q6.java" />
-        <option value="$PROJECT_DIR$/src/com/wk/Q/Q7.java" />
-        <option value="$PROJECT_DIR$/src/com/wk/Q/Q8.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/Q/Q476.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/Q/Q617.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/Q/Q709.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/Q/Q344.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/Q/Q557.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/Q/Q171.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/Q/Q867.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/Q/Q258.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/Q/Q821.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/ListNode.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/Q/Q108.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/data/structure/ListNode.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/Q/Q21.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/data/structure/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/data/structure/Node.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/QNaturalTree.kt" />
+        <option value="$PROJECT_DIR$/src/com/wk/data/structure/NaturalTree.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/Q/Q559.kt" />
         <option value="$PROJECT_DIR$/src/com/wk/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/wk/Q/Q9.java" />
-        <option value="$PROJECT_DIR$/src/com/wk/Q/Q10.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/StaticMethod.kt" />
+        <option value="$PROJECT_DIR$/src/com/wk/Q/QNaturalTree.kt" />
+        <option value="$PROJECT_DIR$/src/com/wk/Q/Q429.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/Q/Q589.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/Q/Q728.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/Q/Q590.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/Q/Q811.java" />
       </list>
     </option>
   </component>
@@ -187,10 +211,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="3" />
-    <option name="y" value="34" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="x" value="-436" />
+    <option name="width" value="1376" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -248,17 +271,20 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/servlet/skyWalker" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.ChangelistConflict" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IdeaProjects\LeetCode\src\com\wk\Q" />
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.wk.Q" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -319,121 +345,278 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6abdcb6f-ce65-4187-a4c4-5eb375ba3d62" name="Default" comment="" />
-      <created>1531729633195</created>
+      <changelist id="6f6ecfd2-d886-407c-b390-0e8e16ea09b4" name="Default" comment="" />
+      <created>1531757623912</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1531729633195</updated>
-      <workItem from="1531729637950" duration="11089000" />
-      <workItem from="1531789180783" duration="15821000" />
-      <workItem from="1532697090542" duration="7201000" />
-      <workItem from="1532768737673" duration="27678000" />
-      <workItem from="1533099911894" duration="1101000" />
-      <workItem from="1533106216126" duration="460000" />
-      <workItem from="1534557820664" duration="656000" />
-      <workItem from="1538042168679" duration="232000" />
+      <updated>1531757623912</updated>
+      <workItem from="1531757626684" duration="142000" />
+      <workItem from="1531784538301" duration="1021000" />
+      <workItem from="1531841529552" duration="3499000" />
+      <workItem from="1532044938601" duration="1137000" />
+      <workItem from="1532560543939" duration="2499000" />
+      <workItem from="1532618158066" duration="4479000" />
+      <workItem from="1532697102277" duration="2282000" />
+      <workItem from="1533656247243" duration="958000" />
+      <workItem from="1533858168378" duration="405000" />
+      <workItem from="1534049013239" duration="1424000" />
+      <workItem from="1534203066461" duration="1057000" />
+      <workItem from="1534259458881" duration="3898000" />
+      <workItem from="1534415214454" duration="17336000" />
+      <workItem from="1534693083937" duration="3251000" />
+      <workItem from="1534778355219" duration="147000" />
+      <workItem from="1534778946443" duration="4642000" />
+      <workItem from="1535414426324" duration="175000" />
+      <workItem from="1535415199577" duration="321000" />
+      <workItem from="1535583795758" duration="2989000" />
+      <workItem from="1535642334595" duration="2401000" />
+      <workItem from="1536068542587" duration="1916000" />
+      <workItem from="1536377511409" duration="666000" />
+      <workItem from="1536395037340" duration="5435000" />
+      <workItem from="1536673282501" duration="2110000" />
+      <workItem from="1536793961456" duration="1890000" />
+      <workItem from="1536796590056" duration="553000" />
+      <workItem from="1536880829501" duration="2352000" />
+      <workItem from="1536971951427" duration="5414000" />
+      <workItem from="1537198683489" duration="1624000" />
+      <workItem from="1537280458651" duration="7581000" />
+      <workItem from="1537758182385" duration="3031000" />
+      <workItem from="1537833050786" duration="1508000" />
+      <workItem from="1537886880498" duration="4721000" />
     </task>
-    <task id="LOCAL-00001" summary="test commit">
-      <created>1531730181387</created>
+    <task id="LOCAL-00001" summary="添加一些曾经写过的题目">
+      <created>1531784867811</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1531730181387</updated>
+      <updated>1531784867811</updated>
     </task>
-    <task id="LOCAL-00002" summary="commit Palindrome[最长回文子串]">
-      <created>1531744670973</created>
+    <task id="LOCAL-00002" summary="Q476">
+      <created>1531869259019</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1531744670973</updated>
+      <updated>1531869259019</updated>
     </task>
-    <task id="LOCAL-00003" summary="优化代码结构">
-      <created>1531792674264</created>
+    <task id="LOCAL-00003" summary="提交617（合并二叉树）题目答案">
+      <created>1532562617729</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1531792674265</updated>
+      <updated>1532562617729</updated>
     </task>
-    <task id="LOCAL-00004" summary="遍历数字数组优化为泛型数组">
-      <created>1531810065015</created>
+    <task id="LOCAL-00004" summary="提交709（转换成小写字母）题目答案">
+      <created>1532563129511</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1531810065015</updated>
+      <updated>1532563129511</updated>
     </task>
-    <task id="LOCAL-00005" summary="优化">
-      <created>1531810102923</created>
+    <task id="LOCAL-00005" summary="提交344（反转字符串）题目答案">
+      <created>1532620196653</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1531810102923</updated>
+      <updated>1532620196654</updated>
     </task>
-    <task id="LOCAL-00006" summary="Z字形变换&#10;将字符串 &quot;PAYPALISHIRING&quot; 以Z字形排列成给定的行数：&#10;&#10;P   A   H   N&#10;A P L S I I G&#10;Y   I   R&#10;之后从左往右，逐行读取字符：&quot;PAHNAPLSIIGYIR&quot;&#10;&#10;实现一个将字符串进行指定行数变换的函数:&#10;&#10;string convert(string s, int numRows);&#10;示例 1:&#10;&#10;输入: s = &quot;PAYPALISHIRING&quot;, numRows = 3&#10;输出: &quot;PAHNAPLSIIGYIR&quot;&#10;示例 2:&#10;&#10;输入: s = &quot;PAYPALISHIRING&quot;, numRows = 4&#10;输出: &quot;PINALSIGYAHRPI&quot;&#10;解释:&#10;&#10;P     I    N&#10;A   L S  I G&#10;Y A   H R&#10;P     I">
-      <created>1531810149060</created>
+    <task id="LOCAL-00006" summary="提交557（反转字符串中的单词 III）题目答案">
+      <created>1532649564078</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1531810149060</updated>
+      <updated>1532649564078</updated>
     </task>
-    <task id="LOCAL-00007" summary="加入kotlin的相关包">
-      <created>1531810207517</created>
+    <task id="LOCAL-00007" summary="kotlin jar包">
+      <created>1532703826523</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1531810207517</updated>
+      <updated>1532703826523</updated>
     </task>
-    <task id="LOCAL-00008" summary="新增7（反转整数）解答">
-      <created>1532928680803</created>
+    <task id="LOCAL-00008" summary="Merge branch 'master' of https://github.com/wk1995/LeetCode&#10;&#10;# Conflicts:&#10;#&#9;lib/kotlin-reflect.jar&#10;#&#9;lib/kotlin-stdlib-sources.jar&#10;#&#9;lib/kotlin-stdlib.jar&#10;#&#9;lib/kotlin-test.jar">
+      <created>1532703975737</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1532928680803</updated>
+      <updated>1532703975737</updated>
     </task>
-    <task id="LOCAL-00009" summary="新增8（字符串转整数）解答">
-      <created>1532936181466</created>
+    <task id="LOCAL-00009" summary="提交Q867(转置矩阵)答案">
+      <created>1534422394720</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1532936181466</updated>
+      <updated>1534422394720</updated>
     </task>
-    <task id="LOCAL-00010" summary="新增9(回文数)解答">
-      <created>1532937089320</created>
+    <task id="LOCAL-00010" summary="提交Q171(Excel表列序号)答案">
+      <created>1534422425477</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1532937089320</updated>
+      <updated>1534422425477</updated>
     </task>
-    <task id="LOCAL-00011" summary="新增10(正则表达式匹配)解答">
-      <created>1538042256929</created>
+    <task id="LOCAL-00011" summary="提交Q811(子域名访问计数)答案">
+      <created>1534607588773</created>
       <option name="number" value="00011" />
       <option name="presentableId" value="LOCAL-00011" />
       <option name="project" value="LOCAL" />
-      <updated>1538042256929</updated>
+      <updated>1534607588773</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="提交Q258(各位相加)答案">
+      <created>1534640628500</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1534640628500</updated>
+    </task>
+    <task id="LOCAL-00013" summary="uiDesigner.xml">
+      <created>1534640961857</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1534640961857</updated>
+    </task>
+    <task id="LOCAL-00014" summary="提交Q821(字符的最短距离)答案">
+      <created>1534722897495</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1534722897496</updated>
+    </task>
+    <task id="LOCAL-00015" summary="添加数据结构-&gt;树">
+      <created>1534779022132</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1534779022132</updated>
+    </task>
+    <task id="LOCAL-00016" summary="优化结构">
+      <created>1535415461157</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1535415461157</updated>
+    </task>
+    <task id="LOCAL-00017" summary="优化结构">
+      <created>1535584173474</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1535584173474</updated>
+    </task>
+    <task id="LOCAL-00018" summary="优化单链表数据结构">
+      <created>1536399451336</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1536399451337</updated>
+    </task>
+    <task id="LOCAL-00019" summary="优化树数据结构，属性与方法对外">
+      <created>1536797003001</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1536797003001</updated>
+    </task>
+    <task id="LOCAL-00020" summary="提交第21题(合并两个有序链表)答案">
+      <created>1536880924515</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1536880924515</updated>
+    </task>
+    <task id="LOCAL-00021" summary="添加数据结构-&gt;N叉树">
+      <created>1536883071944</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1536883071944</updated>
+    </task>
+    <task id="LOCAL-00022" summary="N叉树重命名">
+      <created>1537066730707</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1537066730707</updated>
+    </task>
+    <task id="LOCAL-00023" summary="二叉树重命名">
+      <created>1537066748785</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1537066748785</updated>
+    </task>
+    <task id="LOCAL-00024" summary="提交589(叉树的前序遍历)答案">
+      <created>1537228951400</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1537228951400</updated>
+    </task>
+    <task id="LOCAL-00025" summary="提交590(叉树的后序遍历)答案">
+      <created>1537228976960</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1537228976960</updated>
+    </task>
+    <task id="LOCAL-00026" summary="增加遍历N叉树的多种方法">
+      <created>1537229073360</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1537229073360</updated>
+    </task>
+    <task id="LOCAL-00027" summary="提交Q559(N叉树的最大深度)答案">
+      <created>1537370314792</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1537370314793</updated>
+    </task>
+    <task id="LOCAL-00028" summary="提交Q7(反转整数)答案">
+      <created>1537760408734</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1537760408735</updated>
+    </task>
+    <task id="LOCAL-00029" summary="提交Q821(字符的最短距离)答案">
+      <created>1537760442679</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1537760442679</updated>
+    </task>
+    <task id="LOCAL-00030" summary="提交Q429(N叉树的层序遍历)答案">
+      <created>1538007347680</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1538007347680</updated>
+    </task>
+    <task id="LOCAL-00031" summary="重构：采用模板模式，把有N叉树的题目都继承一父类，减少相同代码">
+      <created>1538007464517</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1538007464517</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64238000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="92937000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882273" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882273" sideWeight="0.5025707" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32882273" sideWeight="0.4974293" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882273" sideWeight="0.4974293" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882273" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32882273" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -497,376 +680,205 @@
     <MESSAGE value="新增8（字符串转整数）解答" />
     <MESSAGE value="新增9(回文数)解答" />
     <MESSAGE value="新增10(正则表达式匹配)解答" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增10(正则表达式匹配)解答" />
+    <MESSAGE value="提交本地Class文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交本地Class文件" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/wk/Q/Q6.java</url>
-          <line>92</line>
+          <url>file://$PROJECT_DIR$/src/com/wk/Q/Q21.java</url>
+          <line>39</line>
           <properties />
-          <option name="timeStamp" value="22" />
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/wk/Q/Q6.java</url>
-          <line>66</line>
+          <url>file://$PROJECT_DIR$/src/com/wk/Q/Q21.java</url>
+          <line>45</line>
           <properties />
-          <option name="timeStamp" value="24" />
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/wk/Q/Q6.java</url>
-          <line>87</line>
+          <url>file://$PROJECT_DIR$/src/com/wk/Q/Q589.java</url>
+          <line>31</line>
           <properties />
-          <option name="timeStamp" value="25" />
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/wk/Q/Q7.java</url>
-          <line>40</line>
+          <url>file://$PROJECT_DIR$/src/com/wk/Q/Q429.java</url>
+          <line>28</line>
           <properties />
-          <option name="timeStamp" value="26" />
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/wk/Q/Q7.java</url>
-          <line>56</line>
+          <url>file://$PROJECT_DIR$/src/com/wk/Q/Q429.java</url>
+          <line>38</line>
           <properties />
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/wk/Q/Q7.java</url>
-          <line>69</line>
-          <properties />
-          <option name="timeStamp" value="28" />
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="29" />
+      <option name="time" value="22" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="result.next" />
+        <watch expression="result.next" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1675">
-          <caret line="67" column="14" lean-forward="false" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q9.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/environment/Java/Java8/jdk1.8.0_131/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69700">
-          <caret line="2871" column="25" lean-forward="false" selection-start-line="2871" selection-start-column="16" selection-end-line="2871" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wk/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        <state relative-caret-position="189">
+          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
+            <marker date="1538042457252" expanded="false" signature="187:193" ph=" }" />
+            <marker date="1538042457252" expanded="true" signature="231:935" ph="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="40" column="13" lean-forward="false" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q344.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q852.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="41" column="31" lean-forward="false" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1675">
-          <caret line="67" column="14" lean-forward="false" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q9.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/environment/Java/Java8/jdk1.8.0_131/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71775">
-          <caret line="2871" column="25" lean-forward="false" selection-start-line="2871" selection-start-column="16" selection-end-line="2871" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="40" column="13" lean-forward="false" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q344.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q852.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="33" lean-forward="false" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="41" column="31" lean-forward="false" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q8.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1675">
-          <caret line="67" column="14" lean-forward="false" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q9.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/environment/Java/Java8/jdk1.8.0_131/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71775">
-          <caret line="2871" column="25" lean-forward="false" selection-start-line="2871" selection-start-column="16" selection-end-line="2871" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1625">
-          <caret line="65" column="33" lean-forward="true" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/StaticMethod.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="40" column="13" lean-forward="false" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q344.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q852.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/environment/Java/Java8/jdk1.8.0_131/src.zip!/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="483" column="18" lean-forward="false" selection-start-line="483" selection-start-column="18" selection-end-line="483" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q728.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q5.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="39" column="46" lean-forward="false" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+        <state relative-caret-position="486">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/environment/Java/Java8/jdk1.8.0_131/src.zip!/java/lang/Class.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q476.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="1780" column="18" lean-forward="false" selection-start-line="1780" selection-start-column="18" selection-end-line="1780" selection-end-column="18" />
+        <state relative-caret-position="27">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/environment/Java/Java8/jdk1.8.0_131/src.zip!/java/lang/Character.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q728.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="157" column="48" lean-forward="false" selection-start-line="157" selection-start-column="42" selection-end-line="157" selection-end-column="48" />
+        <state relative-caret-position="324">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q832.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q617.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="29" column="41" lean-forward="false" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+        <state relative-caret-position="1431">
+          <caret line="53" column="28" lean-forward="false" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/StaticMethod.kt">
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        <state relative-caret-position="189">
+          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1538042457252" expanded="false" signature="187:193" ph=" }" />
+            <marker date="1538042457252" expanded="true" signature="231:935" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q.kt">
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q5.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="486">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q476.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q728.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q617.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1538042457252" expanded="false" signature="187:193" ph=" }" />
+            <marker date="1538042457252" expanded="true" signature="231:935" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1538042457252" expanded="false" signature="187:193" ph=" }" />
+            <marker date="1538042457252" expanded="true" signature="231:935" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/LeetCode/src/com/wk/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q476.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q617.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="42" column="28" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q709.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/String.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q344.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q171.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/a.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/wk/ListNode.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q5.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -878,11 +890,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q344.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q832.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="-241">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -894,35 +905,173 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/environment/Java/Java8/jdk1.8.0_131/src.zip!/java/lang/Integer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q867.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-671">
-          <caret line="531" column="22" lean-forward="false" selection-start-line="531" selection-start-column="22" selection-end-line="531" selection-end-column="22" />
+        <state relative-caret-position="-781">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/environment/Java/Java8/jdk1.8.0_131/src.zip!/java/util/Arrays.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q21.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="3798" column="30" lean-forward="false" selection-start-line="3798" selection-start-column="30" selection-end-line="3798" selection-end-column="30" />
+        <state relative-caret-position="216">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/environment/Java/Java8/jdk1.8.0_131/src.zip!/java/lang/String.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q258.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69700">
-          <caret line="2871" column="25" lean-forward="false" selection-start-line="2871" selection-start-column="16" selection-end-line="2871" selection-end-column="25" />
+        <state relative-caret-position="539">
+          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q557.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/data/structure/TwoForkTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/data/structure/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q108.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="34" column="26" lean-forward="false" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/List.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="31" />
+          <folding>
+            <marker date="1538042457289" expanded="true" signature="19:542" ph="/**...*/" />
+            <marker date="1538042457289" expanded="true" signature="614:1390" ph="{...}" />
+            <marker date="1538042457289" expanded="true" signature="1432:1654" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q821.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q559.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Math.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/wk/data/structure/NaturalTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/function/Consumer.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/Iterable.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1538042457252" expanded="false" signature="187:193" ph=" }" />
+            <marker date="1538042457252" expanded="true" signature="231:935" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q429.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#way#0;class#Q429#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q590.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="20" column="67" lean-forward="false" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q589.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="24" column="66" lean-forward="false" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q728.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="27" column="67" lean-forward="false" selection-start-line="27" selection-start-column="67" selection-end-line="27" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/StaticMethod.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q7.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q10.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="41" column="31" lean-forward="false" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="350">
+          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q811.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="685">
+          <caret line="67" column="66" lean-forward="false" selection-start-line="67" selection-start-column="66" selection-end-line="67" selection-end-column="66" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -934,31 +1083,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q9.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/QNaturalTree.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        <state relative-caret-position="-199">
+          <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#18#112#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wk/Q/Q10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>LeetCode</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>KotlinJavaRuntime</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

@@ -6,7 +6,7 @@ import java.lang.reflect.Method;
 public class Main {
 
     public static void main(String[] args) {
-       solve(6);
+       solve(821);
     }
 
     private static void solve(int i){

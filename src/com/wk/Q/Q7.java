@@ -1,8 +1,5 @@
 package com.wk.Q;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-
 /**
  * <pre>
  *      author : wk
