@@ -10,15 +10,12 @@ package com.wk.order
  *      CSDN   : http://blog.csdn.net/qq_33882671
  * </pre>
  */
-class SelectionOrder(val sortList: ArrayList<Int>) : Order() {
-
-
-    override fun descOrder(sortList: ArrayList<Int>): ArrayList<Int> {
+class SelectionOrder : Order() {
+    override fun <T : Comparable<Any>> descOrder(sortList: ArrayList<T>): ArrayList<T> {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
-
-    override fun ascOrder(sortList: ArrayList<Int>): ArrayList<Int> {
-        val sorts = ArrayList<Int>()
+    override fun <T : Comparable<Any>> ascOrder(sortList: ArrayList<T>): ArrayList<T> {
+        val sorts = ArrayList<T>()
         for (i in sortList.indices) {
             var max = sortList[0]
             var tmp = 0
