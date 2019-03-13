@@ -10,12 +10,12 @@ package com.wk.order
  *      CSDN   : http://blog.csdn.net/qq_33882671
  * </pre>
  */
-class  InsertOrder<T> : Order() {
-    override fun <T : Comparable<Any>> descOrder(sortList: ArrayList<T>): ArrayList<T> {
+class InsertSort<T : Comparable<Any>> : Sort<T>() {
+    override fun descSort(sortList: ArrayList<T>): ArrayList<T> {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
     }
 
-    override fun <T : Comparable<Any>> ascOrder(sortList: ArrayList<T>): ArrayList<T> {
+    override fun ascSort(sortList: ArrayList<T>): ArrayList<T> {
         val size = sortList.size
         //正在排序的T
 //        var current: T

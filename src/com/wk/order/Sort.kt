@@ -10,10 +10,10 @@ package com.wk.order
  *      CSDN   : http://blog.csdn.net/qq_33882671
  * </pre>
  */
-abstract class Order {
+abstract class Sort<T : Comparable<T>> {
     //降序
-    abstract fun <T : Comparable<Any>> descOrder(sortList: ArrayList<T>):ArrayList<T>
+    abstract fun descSort(sortList: ArrayList<T>):ArrayList<T>
     //升序
-    abstract fun <T : Comparable<Any>> ascOrder(sortList: ArrayList<T>):ArrayList<T>
+    abstract fun ascSort(sortList: ArrayList<T>):ArrayList<T>
 
 }
