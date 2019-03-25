@@ -18,4 +18,10 @@ public class TwoForkTree {
     public TwoForkTree(int x) {
         val = x;
     }
+
+    public TwoForkTree(int val,int left,int right){
+        this.val=val;
+        this.left=new TwoForkTree(left);
+        this.right=new TwoForkTree(right);
+    }
 }
