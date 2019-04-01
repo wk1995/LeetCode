@@ -1,12 +1,29 @@
 package com.wk;
 
+import com.wk.order.HeapSort;
+import com.wk.order.InsertSort;
+import com.wk.order.MergeOrder;
+
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.util.ArrayList;
 
 public class Main {
 
     public static void main(String[] args) {
-       solve(821);
+       solve(841);
+//        order();
+    }
+
+    private static void order(){
+        ArrayList<Integer> list=new ArrayList<>();
+        list.add(2);
+        list.add(1);
+        list.add(4);
+        list.add(3);
+        list.add(6);
+        list.add(5);
+        StaticMethod.INSTANCE.ergodicList(new HeapSort<Integer>().ascSort(list));
     }
 
     private static void solve(int i){

@@ -23,7 +23,7 @@ object StaticMethod {
             return ("无数据")
         }
         val sb=StringBuilder()
-        sb.append("[\r\n")
+        sb.append("[")
         val iterable = list.iterator()
         while (iterable.hasNext()) {
             val t = iterable.next()
@@ -32,7 +32,9 @@ object StaticMethod {
             else
                 sb.append("$t ,")
         }
+        sb.deleteCharAt(sb.lastIndex)
         sb.append("]\r\n")
+        println(sb)
         return sb.toString()
     }
 
@@ -98,6 +100,8 @@ object StaticMethod {
 
         return result.toString()
     }
+
+
 
 
 }
