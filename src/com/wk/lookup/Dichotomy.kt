@@ -1,5 +1,7 @@
 package com.wk.lookup
 
+import com.wk.StaticMethod
+
 /**
  * <pre>
  *      author : wk
@@ -10,6 +12,7 @@ package com.wk.lookup
  *      CSDN   : http://blog.csdn.net/qq_33882671
  * </pre>
  */
+@Suppress(StaticMethod.UNUSED)
 class Dichotomy(private val list: ArrayList<Int>, private val target: Int) {
     private val size by lazy { list.size }
     fun lookup(): Int {

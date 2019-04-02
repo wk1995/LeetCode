@@ -1,5 +1,7 @@
 package com.wk.order
 
+import com.wk.StaticMethod
+
 /**
  * <pre>
  *      author : wk
@@ -14,6 +16,7 @@ package com.wk.order
 
  * </pre>
  */
+@Suppress(StaticMethod.UNUSED)
 class BubbleSort<T : Comparable<T>>: Sort<T>() {
     override fun descSort(sortList: ArrayList<T>): ArrayList<T> {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.

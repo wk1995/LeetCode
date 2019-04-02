@@ -15,6 +15,8 @@ import com.wk.data.structure.NaturalTree
  */
 object StaticMethod {
 
+    const val UNUSED="UNUSED"
+
     /**
      * 遍历List
      * */
@@ -56,7 +58,7 @@ object StaticMethod {
 
     /**
      * 遍历N叉树
-     * @param  naturalTree需要遍历的N叉树
+     * @param  naturalTree 需要遍历的N叉树
      * @param  order 遍历的方式，ForwardOrder表示前序遍历，PostOrder表示后序遍历
      * @return 返回StringBuilder 如需返回List{@see link @589}
      * @see link Q589/Q590
