@@ -1,49 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f6ecfd2-d886-407c-b390-0e8e16ea09b4" name="Default" comment="增加排序之快速排序">
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode/META-INF/LeetCode.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q108.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q171.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q21.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q258.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q429.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q559.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q589.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q590.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q811.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q821.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q867.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q9.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q910.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/QNaturalTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/data/structure/ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/data/structure/NaturalTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/data/structure/TwoForkTree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/lookup/Dichotomy$size$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/lookup/Dichotomy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/order/SelectionSort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wk/Q/Q513.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wk/Q/Q743.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wk/Q/Q841.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wk/Q/Q853.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wk/Q/Q874.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wk/Q/Q910.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wk/Q/Q965.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wk/order/HeapSort.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wk/order/ShellSort.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q728.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q728.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/Q/Q8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/wk/StaticMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/StaticMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wk/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wk/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wk/StaticMethod.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wk/StaticMethod.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wk/data/structure/TwoForkTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wk/data/structure/TwoForkTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wk/order/InsertSort.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wk/order/InsertSort.kt" afterDir="false" />
+    <list default="true" id="6f6ecfd2-d886-407c-b390-0e8e16ea09b4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/order/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/LeetCode/com/wk/order/QuickOrder.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,8 +53,8 @@
       <file leaf-file-name="TwoForkTree.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/wk/data/structure/TwoForkTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1080">
-              <caret line="15" column="24" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="24" />
+            <state relative-caret-position="297">
+              <caret line="68" column="19" lean-forward="true" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -455,14 +415,7 @@
       <workItem from="1553346310481" duration="2719000" />
       <workItem from="1553517307478" duration="1858000" />
       <workItem from="1553955611386" duration="1186000" />
-      <workItem from="1554122974683" duration="1849000" />
-    </task>
-    <task id="LOCAL-00002" summary="Q476">
-      <created>1531869259019</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1531869259019</updated>
+      <workItem from="1554122974683" duration="2178000" />
     </task>
     <task id="LOCAL-00003" summary="提交617（合并二叉树）题目答案">
       <created>1532562617729</created>
@@ -800,11 +753,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553126367349</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="为了pull 提交的">
+      <created>1554163115687</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1554163115688</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="322103000" />
+    <option name="totallyTimeSpent" value="322432000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -826,12 +786,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007599" side_tool="true" weight="0.329582" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49924013" weight="0.20900321" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" sideWeight="0.49924013" visible="true" weight="0.20900321" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924013" weight="0.27652735" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.329582" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.12010444" visible="true" weight="0.22844176" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.12010444" visible="true" weight="0.22844176" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" sideWeight="0.926045" side_tool="true" weight="0.18532526" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -884,7 +844,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="增加遍历N叉树的多种方法" />
     <MESSAGE value="提交Q559(N叉树的最大深度)答案" />
     <MESSAGE value="提交Q7(反转整数)答案" />
     <MESSAGE value="提交Q821(字符的最短距离)答案" />
@@ -909,7 +868,8 @@
     <MESSAGE value="提交872(叶子相似的树)答案" />
     <MESSAGE value="增加排序之归并排序" />
     <MESSAGE value="提交997(找到小镇的法官)题目答案" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交997(找到小镇的法官)题目答案" />
+    <MESSAGE value="为了pull 提交的" />
+    <option name="LAST_COMMIT_MESSAGE" value="为了pull 提交的" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1387,8 +1347,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wk/data/structure/TwoForkTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1080">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="24" />
+        <state relative-caret-position="297">
+          <caret line="68" column="19" lean-forward="true" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
         </state>
       </provider>
     </entry>
