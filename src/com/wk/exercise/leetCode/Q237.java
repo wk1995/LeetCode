@@ -1,5 +1,8 @@
 package com.wk.exercise.leetCode;
 
+import com.wk.StaticMethod;
+import com.wk.data.structure.ListNode;
+
 /**
  * <pre>
  *      author : wk <br/>
@@ -43,5 +46,16 @@ package com.wk.exercise.leetCode;
  著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
  * </pre>
  */
-public class Q237 {
+@SuppressWarnings(StaticMethod.UNUSED)
+public class Q237 implements Q {
+    @Override
+    public void answer() {
+        ListNode target=ListNode.createListNode(4,5,1,9);
+        deleteNode(target.getByIndex(1));
+        System.out.println(target);
+    }
+    private void deleteNode(ListNode node) {
+        node.val=node.next.val;
+        node.next=node.next.next;
+    }
 }
