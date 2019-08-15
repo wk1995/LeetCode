@@ -44,6 +44,8 @@ import com.wk.data.structure.ListNode;
  来源：力扣（LeetCode）
  链接：https://leetcode-cn.com/problems/delete-node-in-a-linked-list
  著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+
+ 思路： 一开始可能会有疑惑，为什么只有一个参数，但是仔细想想，ListNode是链表，传入的就是需要删除的结点
  * </pre>
  */
 @SuppressWarnings(StaticMethod.UNUSED)
