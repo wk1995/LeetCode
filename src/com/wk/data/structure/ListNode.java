@@ -2,6 +2,7 @@ package com.wk.data.structure;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Consumer;
 
 /**
  * <pre>
@@ -30,16 +31,8 @@ public class ListNode {
         }
         ListNode result=null;
         ListNode pre=null;
-      /*  vals.forEach(new Consumer<Integer>(){
-            @Override
-            public Consumer<Integer> andThen(Consumer<? super Integer> after) {
-                return null;
-            }
+       /* vals.forEach((Integer integer)->{
 
-            @Override
-            public void accept(Integer integer) {
-
-            }
         });*/
         for(int i=0;i<vals.size();i++){
             if(result==null) {
@@ -60,5 +53,23 @@ public class ListNode {
         } else {
             return String.valueOf(val);
         }
+    }
+
+    public ListNode getByIndex(int index){
+        if(index<0){
+            return null;
+        }
+        ListNode result=null;
+        for(int i=index;i>=0;i--){
+            if(result==null)
+                result=this;
+            else {
+                result=result.next;
+                if(result==null){
+                    return null;
+                }
+            }
+        }
+        return result;
     }
 }
