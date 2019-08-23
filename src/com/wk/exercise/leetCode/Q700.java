@@ -1,5 +1,7 @@
 package com.wk.exercise.leetCode;
 
+import com.wk.data.structure.TwoForkTree;
+
 /**
  * <pre>
  *      author : wk <br/>
@@ -36,5 +38,23 @@ package com.wk.exercise.leetCode;
 
  * </pre>
  */
-public class Q700 {
+public class Q700 implements Q{
+    @Override
+    public void answer() {
+
+    }
+    private TwoForkTree searchBST(TwoForkTree root, int val) {
+        if(root==null)
+            return null;
+        if(root.val==val){
+            return root;
+        }
+        TwoForkTree result;
+        result=searchBST(root.left,val);
+        if(result!=null){
+            return result;
+        }
+        result=searchBST(root.right,val);
+        return result;
+    }
 }
