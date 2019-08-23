@@ -1,7 +1,8 @@
 package com.wk.data.structure;
 
-import java.util.ArrayDeque;
-import java.util.PriorityQueue;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 /**
  * <pre>
@@ -18,52 +19,57 @@ public class TwoForkTree {
     public TwoForkTree left;
     public TwoForkTree right;
 
+    /**遍历的方式*/
+    enum ErgodicType{
+        /**前序遍历*/
+        FORWARD_ORDER,
+        /**后序遍历*/
+        POST_ORDER,
+        /**中序遍历*/
+        MIDDLE_ORDER,
+        STRATUM_LEFT_TO_RIGHT,
+        STRATUM_LEFT_TO_LEFT
+    }
     public TwoForkTree(int x) {
         val = x;
     }
 
-    public TwoForkTree(int left, int right) {
-        this.left = new TwoForkTree(left);
-        this.right = new TwoForkTree(right);
-    }
-
     public TwoForkTree(int val, int left, int right) {
+       this(val,new TwoForkTree(left),new TwoForkTree(right));
+    }
+    public TwoForkTree(int val,TwoForkTree left,TwoForkTree right){
         this(val);
-        this.left = new TwoForkTree(left);
-        this.right = new TwoForkTree(right);
+        this.left=left;
+        this.right=right;
     }
 
-    public TwoForkTree(Integer[] vals) {
-        int length = vals.length;
-        PriorityQueue<TwoForkTree> arrayQueue = new PriorityQueue<>();
-        //表示当前指针的深度
-        int layer = 0;
-        for (int i = 0; i < length; i++) {
-            //其实这里说明了现在是根节点
-            if (arrayQueue.isEmpty()) {
-                arrayQueue.add(new TwoForkTree(vals[i]));
-                continue;
-            }
-            //当前深度最多的节点数
-            int size = layer << 1;
-            for (int j = 0; j < size; j++) {
-                TwoForkTree tmp = arrayQueue.poll();
-                if (i < length)
-                    tmp.left = new TwoForkTree(vals[i++]);
-                else
-                    break;
-                if (i < length)
-                    tmp.right = new TwoForkTree(vals[i++]);
-                else
-                    break;
-            }
-            layer++;
+    public static TwoForkTree createTwoForkTree(List<Integer> vals, ErgodicType mErgodicType,int startPosition){
+        if(vals==null || vals.isEmpty()){
+            return null;
         }
-    }
+        int treeNodeSize=vals.size();
+        TwoForkTree result=new TwoForkTree(vals.get(startPosition));
+        if(treeNodeSize-startPosition==1){
+            return result;
+        }
+        switch (mErgodicType){
+            case FORWARD_ORDER:
+                for(int i=startPosition+1;i<treeNodeSize;i++){
 
+                }
+                break;
+            case POST_ORDER:
+
+                break;
+            case MIDDLE_ORDER:
+
+                break;
+        }
+        return result;
+    }
     //以树的形式来显示二叉树
     public void show() {
-        int deep = getDeep();
+        int deep = getTwoForkTreeDeep(this);
         if (deep <= 1) {
             System.out.println(val);
             return;
@@ -87,16 +93,69 @@ public class TwoForkTree {
         }
     }
 
-    public int getDeep() {
-        int deep = 0;
-        return getBranchDeep(this, deep);
+    public void showTwoForkTree(){
+        int maxDepth = getTwoForkTreeDeep(this);
+        if (maxDepth <= 1) {
+            System.out.println(val);
+            return;
+        }
+        StringBuilder result=new StringBuilder();
+        //最后一行空格的个数，每个最小的完全二叉树之间是需要空格的
+        int blankSpaceNum=new Double(Math.pow(2,maxDepth-2)-1).intValue();
+        //最后两行形成的最小的完全二叉树的个数
+        int leastTwoForkTreeNum=new Double(Math.pow(2,maxDepth-2)).intValue();
+        /*最大所需空间，其实也就是最后一层的空间
+        * 3*leastTwoForkTreeNum的原因：
+        * 一颗最小的完全二叉树，最后一行所占space为3，把二叉树最后两行拆解
+        * 成一个个最小完全二叉树，然后这一个个最小完全二叉树的个数肯定是2的倍数，
+        * 除了第一行之外都满足这个
+        * */
+        int maxSpaceNum=new Double(3*leastTwoForkTreeNum+blankSpaceNum).intValue();
+        for(int depth=1;depth<=maxDepth;depth++){
+            //第depth层 第一个Node前面空格的num
+            int firstNodeNum=new Double(Math.pow(2,maxDepth-depth)).intValue()-1;
+            if(depth==1){
+                result.append(repeatStringByJoin(BLANK_SPACE,firstNodeNum));
+                result.append("O");
+                result.append(NEW_LINE);
+                continue;
+            }
+            //第depth层 每个node之间的间距
+            int amongOfTreeNodeNum = new Double(Math.pow(2, maxDepth - depth + 1)).intValue() - 1;
+
+
+        }
+
+
     }
 
-    private int getBranchDeep(TwoForkTree twoForkTree, int deep) {
+    public void ergodic(ErgodicType mErgodicType, ArrayList<Integer> result){
+
+        switch (mErgodicType){
+            case STRATUM_LEFT_TO_LEFT :
+
+                break;
+        }
+    }
+
+    /**获取树的最大深度*/
+    public static int getTwoForkTreeDeep(TwoForkTree twoForkTree) {
+        return getBranchDeep(twoForkTree, 0);
+    }
+
+    private  static int getBranchDeep(TwoForkTree twoForkTree, int deep) {
         if (twoForkTree == null)
             return deep;
         deep++;
         deep = Math.max(getBranchDeep(twoForkTree.left, deep), getBranchDeep(twoForkTree.right, deep));
         return deep;
     }
+    public static String repeatStringByJoin( String target, int count){
+        if(target==null || count<=0){
+            return null;
+        }
+        return String.join("", Collections.nCopies(count, target));
+    }
+    private static final String BLANK_SPACE=" ";
+    private static final String NEW_LINE="\r\n";
 }
