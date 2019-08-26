@@ -1,5 +1,7 @@
 package com.wk.exercise.leetCode;
 
+import java.util.Arrays;
+
 /**
  * <pre>
  *      author : wk <br/>
@@ -37,11 +39,39 @@ package com.wk.exercise.leetCode;
  1 <= S.length <= 1000
  S 只包含字符 "I" 或 "D"。
 
+ 思路：每次I的前一个位置都是从最小值开始往上加一得到的，每次D的前一个位置都是从最大值开始往下减一得到的
+
  来源：力扣（LeetCode）
  链接：https://leetcode-cn.com/problems/di-string-match
  著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 
  * </pre>
  */
-public class Q942 {
+public class Q942 implements Q {
+    @Override
+    public void answer() {
+        String s="IDID";
+        System.out.println(Arrays.toString(diStringMatch(s)));
+    }
+
+    private int[] diStringMatch(String S) {
+        if(S==null || S.isEmpty()){
+            return null;
+        }
+        final int size=S.length();
+        int start=0;
+        int end=size;
+        int[] result=new int[size+1];
+        for(int i=0;i<size;i++){
+           if(S.charAt(i)=='I'){
+               result[i]=start;
+               start++;
+           }else{
+               result[i]=end;
+               end--;
+           }
+        }
+        result[size]=start;
+        return result;
+    }
 }
