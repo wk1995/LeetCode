@@ -18,7 +18,7 @@ public class TwoForkTree {
     public TwoForkTree right;
 
     /**遍历的方式*/
-    enum ErgodicType{
+    public enum ErgodicType{
         /**前序遍历*/
         FORWARD_ORDER,
         /**后序遍历*/
