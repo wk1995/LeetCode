@@ -1,8 +1,6 @@
 package com.wk.data.structure;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 /**
  * <pre>
@@ -43,30 +41,61 @@ public class TwoForkTree {
         this.right=right;
     }
 
-    public static TwoForkTree createTwoForkTree(List<Integer> vals, ErgodicType mErgodicType,int startPosition){
-        if(vals==null || vals.isEmpty()){
+    public static TwoForkTree createTwoForkTree(Integer[] vals, ErgodicType mErgodicType, Integer startPosition) {
+        if (vals == null || vals.length == 0) {
             return null;
         }
-        int treeNodeSize=vals.size();
-        TwoForkTree result=new TwoForkTree(vals.get(startPosition));
-        if(treeNodeSize-startPosition==1){
+        int treeNodeSize = vals.length;
+        if (startPosition >= treeNodeSize || vals[startPosition] == null) {
+            return null;
+        }
+        TwoForkTree result = new TwoForkTree(vals[startPosition]);
+        if (treeNodeSize - startPosition == 1) {
             return result;
         }
         switch (mErgodicType){
             case FORWARD_ORDER:
-                for(int i=startPosition+1;i<treeNodeSize;i++){
-
-                }
                 break;
             case POST_ORDER:
-
                 break;
             case MIDDLE_ORDER:
-
+                break;
+            case STRATUM_LEFT_TO_LEFT:
+                Deque<TwoForkTree> deque = new ArrayDeque<>();
+                deque.addLast(result);
+                for (int i = startPosition + 1; i < treeNodeSize; i++) {
+                    TwoForkTree next = deque.poll();
+                    if (next == null) {
+                        break;
+                    }
+                    Integer leftVal = vals[i];
+                    if (leftVal != null) {
+                        TwoForkTree left = new TwoForkTree(leftVal);
+                        next.left = left;
+                        deque.addLast(left);
+                    }
+                    i++;
+                    Integer rightVal = vals[i];
+                    if (rightVal != null) {
+                        TwoForkTree right = new TwoForkTree(rightVal);
+                        next.right = right;
+                        deque.addLast(right);
+                    }
+                }
                 break;
         }
         return result;
     }
+
+
+    public static TwoForkTree createTwoForkTree(List<Integer> vals, ErgodicType mErgodicType, int startPosition1) {
+        if (vals == null || vals.size() == 0) {
+            return null;
+        }
+        int size = vals.size();
+        return createTwoForkTree(vals.toArray(new Integer[size]), mErgodicType, startPosition1);
+    }
+
     //以树的形式来显示二叉树
     public void show() {
         int deep = getTwoForkTreeDeep(this);
