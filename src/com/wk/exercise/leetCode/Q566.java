@@ -52,5 +52,14 @@ package com.wk.exercise.leetCode;
 
  * </pre>
  */
-public class Q566 {
+//todo
+public class Q566 implements Q{
+    @Override
+    public void answer() {
+
+    }
+    public int[][] matrixReshape(int[][] nums, int r, int c) {
+        int[][] result=new int[0][0] ;
+        return result;
+    }
 }

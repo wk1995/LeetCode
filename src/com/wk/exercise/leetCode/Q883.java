@@ -60,5 +60,13 @@ package com.wk.exercise.leetCode;
 
  * </pre>
  */
-public class Q883 {
+//todo
+public class Q883 implements Q {
+    @Override
+    public void answer() {
+
+    }
+    public int projectionArea(int[][] grid) {
+            return 0;
+    }
 }

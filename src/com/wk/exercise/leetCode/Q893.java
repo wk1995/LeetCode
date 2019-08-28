@@ -57,5 +57,13 @@ package com.wk.exercise.leetCode;
 
  * </pre>
  */
-public class Q893 {
+//todo
+public class Q893 implements Q{
+    @Override
+    public void answer() {
+
+    }
+    public int numSpecialEquivGroups(String[] A) {
+        return 0;
+    }
 }

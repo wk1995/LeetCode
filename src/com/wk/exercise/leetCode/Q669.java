@@ -1,5 +1,7 @@
 package com.wk.exercise.leetCode;
 
+import com.wk.data.structure.TwoForkTree;
+
 /**
  * <pre>
  *      author : wk <br/>
@@ -53,5 +55,14 @@ package com.wk.exercise.leetCode;
 
  * </pre>
  */
-public class Q669 {
+//todo
+public class Q669 implements Q {
+    @Override
+    public void answer() {
+
+    }
+
+    public TwoForkTree trimBST(TwoForkTree root, int L, int R) {
+        return null;
+    }
 }

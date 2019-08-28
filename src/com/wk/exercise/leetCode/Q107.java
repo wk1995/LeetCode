@@ -1,5 +1,9 @@
 package com.wk.exercise.leetCode;
 
+import com.wk.data.structure.TwoForkTree;
+
+import java.util.List;
+
 /**
  * <pre>
  *      author : wk <br/>
@@ -34,5 +38,13 @@ package com.wk.exercise.leetCode;
 
  * </pre>
  */
-public class Q107 {
+//TODO
+public class Q107 implements Q {
+    @Override
+    public void answer() {
+
+    }
+    public List<List<Integer>> levelOrderBottom(TwoForkTree root) {
+        return null;
+    }
 }

@@ -33,5 +33,12 @@ package com.wk.exercise.leetCode
 
  * </pre>
  */
-class Q521 {
+//TODO
+class Q521:Q {
+    override fun answer() {
+
+    }
+    fun findLUSlength(a: String, b: String): Int {
+        return 0;
+    }
 }

@@ -53,5 +53,13 @@ package com.wk.exercise.leetCode;
 
  * </pre>
  */
-public class Q766 {
+//todo
+public class Q766 implements Q {
+    @Override
+    public void answer() {
+
+    }
+    public boolean isToeplitzMatrix(int[][] matrix) {
+        return true;
+    }
 }

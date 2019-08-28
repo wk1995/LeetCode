@@ -29,5 +29,9 @@ package com.wk.exercise.leetCode;
 
  * </pre>
  */
+//todo
 public class Q169 {
+    public int majorityElement(int[] nums) {
+        return 0;
+    }
 }

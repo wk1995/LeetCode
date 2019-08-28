@@ -1,5 +1,7 @@
 package com.wk.exercise.leetCode;
 
+import java.util.List;
+
 /**
  * <pre>
  *      author : wk <br/>
@@ -47,5 +49,9 @@ package com.wk.exercise.leetCode;
 
  * </pre>
  */
+//todo
 public class Q412 {
+    public List<String> fizzBuzz(int n) {
+        return null;
+    }
 }

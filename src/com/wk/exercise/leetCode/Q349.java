@@ -31,5 +31,13 @@ package com.wk.exercise.leetCode;
 
  * </pre>
  */
-public class Q349 {
+//TODO
+public class Q349 implements Q {
+    @Override
+    public void answer() {
+
+    }
+    public int[] intersection(int[] nums1, int[] nums2) {
+        return new int[0];
+    }
 }

@@ -1,5 +1,7 @@
 package com.wk.exercise.leetCode;
 
+import com.wk.data.structure.TwoForkTree;
+
 /**
  * <pre>
  *      author : wk <br/>
@@ -19,5 +21,14 @@ package com.wk.exercise.leetCode;
 
  * </pre>
  */
-public class Q206 {
+//TODO
+public class Q206 implements Q {
+    @Override
+    public void answer() {
+
+    }
+
+    public TwoForkTree reverseList(TwoForkTree head) {
+        return null;
+    }
 }

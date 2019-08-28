@@ -45,5 +45,14 @@ package com.wk.exercise.leetCode;
 
  * </pre>
  */
-public class Q762 {
+//TODO
+public final class Q762 implements Q {
+    @Override
+    public void answer() {
+
+    }
+
+    public int countPrimeSetBits(int L, int R) {
+        return 0;
+    }
 }

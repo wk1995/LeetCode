@@ -46,5 +46,16 @@ package com.wk.exercise.leetCode;
 
  * </pre>
  */
-public class Q806 {
+//todo
+public class Q806 implements Q {
+    @Override
+    public void answer() {
+
+    }
+
+    public int[] numberOfLines(int[] widths, String S) {
+        int[] result=new int[0];
+        return result;
+    }
+
 }

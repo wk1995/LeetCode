@@ -31,5 +31,14 @@ package com.wk.exercise.leetCode;
 
  * </pre>
  */
-public class Q136 {
+//TODO
+public class Q136 implements Q {
+    @Override
+    public void answer() {
+
+    }
+
+    public int singleNumber(int[] nums) {
+        return 0;
+    }
 }

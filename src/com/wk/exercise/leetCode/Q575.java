@@ -34,5 +34,14 @@ package com.wk.exercise.leetCode;
 
  * </pre>
  */
-public class Q575 {
+//TODO
+public class Q575 implements Q {
+    @Override
+    public void answer() {
+
+    }
+
+    public int distributeCandies(int[] candies) {
+        return 0;
+    }
 }
