@@ -1,8 +1,6 @@
 package com.wk.data.structure;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 /**
  * <pre>
@@ -129,13 +127,27 @@ public class TwoForkTree {
 
     }
 
-    public void ergodic(ErgodicType mErgodicType, ArrayList<Integer> result){
-
+    public ArrayList<Integer> ergodic(ErgodicType mErgodicType){
+        ArrayList<Integer> result=new ArrayList<>();
         switch (mErgodicType){
             case STRATUM_LEFT_TO_LEFT :
-
+                Deque<TwoForkTree> deque=new ArrayDeque<>();
+                deque.addLast(this);
+                while (deque.size()!=0){
+                    TwoForkTree top=deque.pollFirst();
+                    result.add(top.val);
+                    TwoForkTree left=top.left;
+                    if(left!=null){
+                        deque.addLast(left);
+                    }
+                    TwoForkTree right=top.right;
+                    if(right!=null){
+                        deque.addLast(right);
+                    }
+                }
                 break;
         }
+        return result;
     }
 
     /**获取树的最大深度*/
