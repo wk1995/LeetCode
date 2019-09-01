@@ -15,7 +15,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-       solve(137,LEET_CODE);
+       solve(938,LEET_CODE);
 //        sort();
     }
 

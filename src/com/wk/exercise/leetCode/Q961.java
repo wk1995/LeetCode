@@ -1,5 +1,8 @@
 package com.wk.exercise.leetCode;
 
+import javax.print.attribute.standard.MediaSize;
+import java.util.HashMap;
+
 /**
  * <pre>
  *      author : wk <br/>
@@ -42,5 +45,22 @@ package com.wk.exercise.leetCode;
 
  * </pre>
  */
-public class Q961 {
+public class Q961 implements Q {
+    @Override
+    public void answer() {
+        int[] A={1,2,3,3};
+        System.out.println(repeatedNTimes(A));
+    }
+    private int repeatedNTimes(int[] A){
+        HashMap<Integer,Integer> repeatedCheck=new HashMap<>();
+        for(int a:A){
+            if(repeatedCheck.get(a)!=null){
+                return a;
+            }else {
+                repeatedCheck.put(a,a);
+            }
+
+        }
+     return Integer.MIN_VALUE;
+    }
 }
