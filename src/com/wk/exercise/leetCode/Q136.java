@@ -31,14 +31,19 @@ package com.wk.exercise.leetCode;
 
  * </pre>
  */
-//TODO
 public class Q136 implements Q {
+
     @Override
     public void answer() {
-
+        int[] nums={2,2,1};
+        System.out.println(singleNumber(nums));
     }
 
-    public int singleNumber(int[] nums) {
-        return 0;
+    private int singleNumber(int[] nums) {
+        int result=0;
+        for (int num : nums) {
+            result^=num;
+        }
+        return result;
     }
 }
