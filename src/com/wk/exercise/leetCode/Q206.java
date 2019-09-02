@@ -1,6 +1,6 @@
 package com.wk.exercise.leetCode;
 
-import com.wk.data.structure.TwoForkTree;
+import com.wk.data.structure.ListNode;
 
 /**
  * <pre>
@@ -21,14 +21,22 @@ import com.wk.data.structure.TwoForkTree;
 
  * </pre>
  */
-//TODO
 public class Q206 implements Q {
     @Override
     public void answer() {
-
+        ListNode head=ListNode.createListNode(1,2,3,4,5);
+        System.out.println(reverseList(head));
     }
 
-    public TwoForkTree reverseList(TwoForkTree head) {
-        return null;
+    private ListNode reverseList(ListNode head) {
+        ListNode prev = null;
+        ListNode curr = head;
+        while (curr != null) {
+            ListNode nextTemp = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = nextTemp;
+        }
+        return prev;
     }
 }
