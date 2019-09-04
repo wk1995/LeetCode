@@ -1,5 +1,9 @@
 package com.wk.exercise.leetCode;
 
+import java.util.Arrays;
+
+import static com.wk.StaticMethod.UNUSED;
+
 /**
  * <pre>
  *      author : wk <br/>
@@ -27,9 +31,34 @@ package com.wk.exercise.leetCode;
 
  * </pre>
  */
-//todo
-public class Q283 {
-    public void moveZeroes(int[] nums) {
+@SuppressWarnings(UNUSED)
+public class Q283 implements Q {
+    @Override
+    public void answer() {
+        int[] nums={1,0,1};
+        moveZeroes(nums);
+        System.out.println(Arrays.toString(nums));
+    }
 
+    /**
+     * 思路：遍历数组，如果找到0，记下当前0的个数，这时候0都是在一起的，
+     * 找到非0的数字时候，让第一个0与它调换位置
+     * */
+    private void moveZeroes(int[] nums) {
+        if(nums==null || nums.length<=1){
+            return;
+        }
+        //0的个数
+        int zeroCount=0;
+        for (int i = 0; i < nums.length; i++) {
+            if(nums[i]==0){
+                zeroCount++;
+            }else{
+                if(zeroCount==0) continue;
+                nums[i]=nums[i]^nums[i-zeroCount];
+                nums[i-zeroCount]=nums[i]^nums[i-zeroCount];
+                nums[i]=nums[i]^nums[i-zeroCount];
+            }
+        }
     }
 }
