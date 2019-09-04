@@ -15,7 +15,7 @@ import com.wk.data.structure.NaturalTree
  */
 object StaticMethod {
 
-    const val UNUSED="UNUSED"
+    const val UNUSED="unused"
 
     /**
      * 遍历List
