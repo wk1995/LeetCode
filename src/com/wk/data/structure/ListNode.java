@@ -6,7 +6,7 @@ import java.util.function.Consumer;
 
 /**
  * <pre>
- *      author : wk
+ *      @author : wk
  *      e-mail : 1226426603@qq.com
  *      time   : 2018/08/2018/8/12
  *      desc   : 单链表数据结构
@@ -61,9 +61,9 @@ public class ListNode {
         }
         ListNode result=null;
         for(int i=index;i>=0;i--){
-            if(result==null)
+            if(result==null) {
                 result=this;
-            else {
+            } else {
                 result=result.next;
                 if(result==null){
                     return null;

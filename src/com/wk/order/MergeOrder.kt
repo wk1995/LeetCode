@@ -1,10 +1,11 @@
 package com.wk.order
 
 import com.wk.StaticMethod
+import com.wk.SuppressConstant
 
 /**
  * <pre>
- *      author : wk
+ *      @author : wk
  *      e-mail : 1226426603@qq.com
  *      time   : 2019/2/26/21:25
  *      desc   : 归并排序
@@ -12,7 +13,7 @@ import com.wk.StaticMethod
  *      CSDN   : http://blog.csdn.net/qq_33882671
  * </pre>
  */
-@Suppress(StaticMethod.UNUSED)
+@Suppress(SuppressConstant.UNUSED)
 class MergeOrder<T : Comparable<T>> : Sort<T>() {
 
     override fun descSort(sortList: ArrayList<T>): ArrayList<T> {

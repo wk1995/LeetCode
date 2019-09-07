@@ -1,10 +1,11 @@
 package com.wk.order
 
 import com.wk.StaticMethod
+import com.wk.SuppressConstant
 
 /**
  * <pre>
- *      author : wk
+ *      @author : wk
  *      e-mail : 1226426603@qq.com
  *      time   : 2019/3/14/20:43
  *      desc   : 堆排序
@@ -12,7 +13,7 @@ import com.wk.StaticMethod
  *      CSDN   : http://blog.csdn.net/qq_33882671
  * </pre>
  */
-@Suppress(StaticMethod.UNUSED)
+@Suppress(SuppressConstant.UNUSED)
 class HeapSort<T : Comparable<T>> : Sort<T>() {
     override fun descSort(sortList: ArrayList<T>): ArrayList<T> {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.

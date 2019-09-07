@@ -1,10 +1,11 @@
 package com.wk.order
 
 import com.wk.StaticMethod
+import com.wk.SuppressConstant
 
 /**
  * <pre>
- *      author : wk
+ *      @author : wk
  *      e-mail : 1226426603@qq.com
  *      time   : 2018/12/8/14:43
  *      desc   : 快速排序
@@ -12,7 +13,7 @@ import com.wk.StaticMethod
  *      CSDN   : http://blog.csdn.net/qq_33882671
  * </pre>
  */
-@Suppress(StaticMethod.UNUSED)
+@Suppress(SuppressConstant.UNUSED)
 class QuickSort<T : Comparable<T>> : Sort<T>() {
 
     override fun descSort(sortList: ArrayList<T>): ArrayList<T> {

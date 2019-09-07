@@ -4,7 +4,7 @@ import java.util.List;
 
 /**
  * <pre>
- *      author : wk
+ *      @author : wk
  *      e-mail : 1226426603@qq.com
  *      time   : 2018/9/14/7:46
  *      desc   : 数据结构->N叉树
