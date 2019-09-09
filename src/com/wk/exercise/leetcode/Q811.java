@@ -79,7 +79,7 @@ public class Q811 implements Q {
             map.put(domainName, count + value);
         }
         int pointIndex = domainName.indexOf(".");
-        if (pointIndex < 0){ return map};
+        if (pointIndex < 0){ return map;}
         domainName = domainName.substring(pointIndex + 1, domainName.length());
 
         return count(map, count, domainName);
