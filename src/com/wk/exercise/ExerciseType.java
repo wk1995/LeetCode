@@ -12,7 +12,7 @@ package com.wk.exercise;
  */
 public enum ExerciseType {
     /**leetcode*/
-    LEET_CODE("leetCode"),
+    LEET_CODE("leetcode"),
     SWORD_FINGER_OFFER("swordFingerOffer");
     private final String name;
      ExerciseType(String name){
