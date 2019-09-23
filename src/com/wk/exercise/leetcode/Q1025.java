@@ -1,5 +1,7 @@
 package com.wk.exercise.leetcode;
 
+import com.wk.SuppressConstant;
+
 /**
  * <pre>
  *      @author : wk <br/>
@@ -45,15 +47,15 @@ package com.wk.exercise.leetcode;
 
  * </pre>
  */
-//todo
+@SuppressWarnings(SuppressConstant.UNUSED)
 public class Q1025 implements Q {
-
     @Override
     public void answer() {
-
+        int n=2;
+        System.out.println(divisorGame(2));
     }
 
     private  boolean divisorGame(int N) {
-        return false;
+        return N%2==0;
     }
 }
