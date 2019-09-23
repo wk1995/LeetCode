@@ -1,5 +1,7 @@
 package com.wk.exercise.leetcode
 
+import com.wk.SuppressConstant
+
 
 /**
  * <pre>
@@ -35,10 +37,12 @@ package com.wk.exercise.leetcode
 
  * </pre>
  */
-//TODO
+@Suppress(SuppressConstant.UNUSED)
 class Q521:Q {
     override fun answer() {
-
+        val a="abc"
+        val b="bca"
+        println(findLUSlength(a,b))
     }
     private fun findLUSlength(a: String, b: String): Int {
         return if(a==b){
