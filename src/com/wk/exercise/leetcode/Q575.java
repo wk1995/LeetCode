@@ -1,5 +1,9 @@
 package com.wk.exercise.leetcode;
 
+import com.wk.SuppressConstant;
+
+import java.util.HashSet;
+
 /**
  * <pre>
  *      @author : wk <br/>
@@ -34,14 +38,26 @@ package com.wk.exercise.leetcode;
 
  * </pre>
  */
-//TODO
+@SuppressWarnings(SuppressConstant.UNUSED)
 public class Q575 implements Q {
     @Override
     public void answer() {
-
+        int[] candies={1,1,2,2,3,3,3,3};
+        System.out.println(distributeCandies(candies));
     }
 
-    public int distributeCandies(int[] candies) {
-        return 0;
+    private int distributeCandies(int[] candies) {
+        int candyLength=candies.length;
+        if(candyLength==0){
+            return 0;
+        }
+        //能拿到糖果的个数
+        int result1=candyLength/2;
+        //糖果种类
+        HashSet<Integer> candyKind=new HashSet<>(16);
+        for (int candy : candies) {
+            candyKind.add(candy);
+        }
+        return Math.min(result1,candyKind.size());
     }
 }
