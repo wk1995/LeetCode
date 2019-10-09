@@ -1,5 +1,8 @@
 package com.wk.data.structure;
 
+import com.wk.ErgodicType;
+import com.wk.StringConstants;
+import com.wk.StringUtils;
 import com.wk.SuppressConstant;
 
 import java.util.*;
@@ -20,25 +23,7 @@ public class TwoForkTree {
     public TwoForkTree left;
     public TwoForkTree right;
 
-    /**
-     * 遍历的方式
-     */
-    public enum ErgodicType {
-        /**
-         * 前序遍历
-         */
-        FORWARD_ORDER,
-        /**
-         * 后序遍历
-         */
-        POST_ORDER,
-        /**
-         * 中序遍历
-         */
-        MIDDLE_ORDER,
-        STRATUM_LEFT_TO_RIGHT,
-        STRATUM_LEFT_TO_LEFT
-    }
+
 
     public TwoForkTree(int x) {
         val = x;
@@ -73,7 +58,7 @@ public class TwoForkTree {
                 break;
             case MIDDLE_ORDER:
                 break;
-            case STRATUM_LEFT_TO_LEFT:
+            case STRATUM_LEFT_TO_RIGHT:
                 Deque<TwoForkTree> deque = new ArrayDeque<>();
                 deque.addLast(result);
                 for (int i = startPosition + 1; i < treeNodeSize; i++) {
@@ -112,34 +97,15 @@ public class TwoForkTree {
     }
 
     /**
-     * 以树的形式来显示二叉树
-     */
-    public void show() {
-        int deep = getTwoForkTreeDeep(this);
-        if (deep <= 1) {
-            System.out.println(val);
-            return;
-        }
-        //最后一层最多节点数
-        int lastLayerNum = 1 << (deep - 1);
-        //因为每个节点与旁边的节点会有一个空格，表示最后一层需要占totle个位子
-        int totle = (lastLayerNum << 1) - 1;
-        //根节点前面需要的空格数，下面每一层的最左边节点空格都是上一层的最左边的空格数-1然后再除以2，
-        //并且同一层的相邻节点之间的空格数是最左边的节点空格数的两倍
-        int rootSpace = (totle - 1) >> 1;
-        StringBuilder result = new StringBuilder();
-        for (int currentDeep = 1; currentDeep <= deep; currentDeep++) {
-            //表示每层最左节点的空格数
-            int currentSpace = (totle - 1) >> currentDeep;
-            //当前的最多子节点数
-            int currentNum = 1 << (currentDeep - 1);
-            for (int i = 0; i < currentSpace; i++) {
-                result.append(" ");
-            }
-            result.append("\r\n");
-        }
-    }
-
+     *  以树的形式来显示二叉树
+     *  思路：
+     * 1：第n层，有2的(n-1)次方个节点
+     * 2：一个节点的子节点需要3个空间，见3
+     * 3:第n层，除了第一层以外，结点之间的间隔所占的空间为：2的(maxDepth-n)+1的次方-1
+     * 4：第n层，第一个结点距离左边所占的空间为：2的（maxDepth-n）的次方-1
+     * 5：n从1开始
+     *
+     * */
     public void showTwoForkTree() {
         int maxDepth = getTwoForkTreeDeep(this);
         if (maxDepth <= 1) {
@@ -147,39 +113,52 @@ public class TwoForkTree {
             return;
         }
         StringBuilder result = new StringBuilder();
-        //最后一行空格的个数，每个最小的完全二叉树之间是需要空格的
-        int blankSpaceNum = new Double(Math.pow(2, maxDepth - 2) - 1).intValue();
-        //最后两行形成的最小的完全二叉树的个数
-        int leastTwoForkTreeNum = new Double(Math.pow(2, maxDepth - 2)).intValue();
-        /*最大所需空间，其实也就是最后一层的空间
-         * 3*leastTwoForkTreeNum的原因：
-         * 一颗最小的完全二叉树，最后一行所占space为3，把二叉树最后两行拆解
-         * 成一个个最小完全二叉树，然后这一个个最小完全二叉树的个数肯定是2的倍数，
-         * 除了第一行之外都满足这个
-         * */
-        int maxSpaceNum = new Double(3 * leastTwoForkTreeNum + blankSpaceNum).intValue();
-        for (int depth = 1; depth <= maxDepth; depth++) {
-            //第depth层 第一个Node前面空格的num
-            int firstNodeNum = new Double(Math.pow(2, maxDepth - depth)).intValue() - 1;
-            if (depth == 1) {
-                result.append(repeatStringByJoin(BLANK_SPACE, firstNodeNum));
-                result.append("O");
-                result.append(NEW_LINE);
-                continue;
+        ArrayDeque<TwoForkTree> arrayDeque=new ArrayDeque<>();
+        arrayDeque.add(this);
+        for(int depth = 1; depth <= maxDepth; depth++) {
+            //第depth层，节点个数
+            int nodeCount=(int)Math.pow(2, depth - 1);
+            System.out.println("第"+depth+"层，节点个数: "+nodeCount);
+            //第depth层，第一个节点距离左边的空间
+            int leftSpacing=(int)Math.pow(2,maxDepth-depth)-1;
+            System.out.println("第"+depth+"层，第一个节点距离左边的空间: "+leftSpacing);
+            result.append(StringUtils.repeatString(StringConstants.STRING_BLANK_SINGLE,leftSpacing));
+            if(depth!=1){
+                int nodeSpace=(int)Math.pow(2,maxDepth-depth+1)-1;
+                System.out.println("第"+depth+"层，节点间隔: "+nodeSpace);
+                for(int index=0;index<nodeCount;index++){
+                    TwoForkTree current=arrayDeque.pop();
+                    int value=current.val;
+                    if(current.left!=null) {
+                        arrayDeque.add(current.left);
+                    }
+                    if(current.right!=null) {
+                        arrayDeque.add(current.right);
+                    }
+
+                    result.append(value);
+                    if( index==nodeCount-1){
+                        result.append(StringConstants.NEW_LINE);
+                    }else {
+                        result.append(StringUtils.repeatString(StringConstants.STRING_BLANK_SINGLE, nodeSpace));
+                    }
+                }
+            }else{
+                TwoForkTree current=arrayDeque.pop();
+                int value=current.val;
+                arrayDeque.add(current.left);
+                arrayDeque.add(current.right);
+                result.append(value).append(StringConstants.NEW_LINE);
+
             }
-            //第depth层 每个node之间的间距
-            int amongOfTreeNodeNum = new Double(Math.pow(2, maxDepth - depth + 1)).intValue() - 1;
-
-
         }
-
-
+        System.out.println(result.toString());
     }
 
     public ArrayList<Integer> ergodic(ErgodicType mErgodicType) {
         ArrayList<Integer> result = new ArrayList<>();
         switch (mErgodicType) {
-            case STRATUM_LEFT_TO_LEFT:
+            case STRATUM_LEFT_TO_RIGHT:
                 Deque<TwoForkTree> deque = new ArrayDeque<>();
                 deque.addLast(this);
                 while (deque.size() != 0) {
@@ -227,6 +206,5 @@ public class TwoForkTree {
         return String.join("", Collections.nCopies(count, target));
     }
 
-    private static final String BLANK_SPACE = " ";
-    private static final String NEW_LINE = "\r\n";
+
 }
