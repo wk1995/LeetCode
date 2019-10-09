@@ -2,8 +2,7 @@ package com.wk.exercise.leetcode;
 
 import com.wk.data.structure.TwoForkTree;
 
-import static com.wk.data.structure.TwoForkTree.ErgodicType.STRATUM_LEFT_TO_LEFT;
-
+import static com.wk.ErgodicType.STRATUM_LEFT_TO_RIGHT;
 
 /**
  * <pre>
@@ -48,7 +47,7 @@ public class Q938 implements Q {
     @Override
     public void answer() {
         Integer[] root = {10,5,15,3,7,null,18};
-        TwoForkTree mTwoForkTree=TwoForkTree.createTwoForkTree(root,STRATUM_LEFT_TO_LEFT,0);
+        TwoForkTree mTwoForkTree=TwoForkTree.createTwoForkTree(root, STRATUM_LEFT_TO_RIGHT,0);
         System.out.println(rangeSumBST(mTwoForkTree,7,15));
     }
 
