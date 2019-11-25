@@ -1,5 +1,9 @@
 package com.wk.exercise.leetcode;
 
+import com.wk.SuppressConstant;
+
+import java.util.HashSet;
+
 /**
  * <pre>
  *      @author : wk <br/>
@@ -8,7 +12,7 @@ package com.wk.exercise.leetcode;
  *      GitHub : https://github.com/wk1995 <br/>
  *      address:
  *      CSDN   : http://blog.csdn.net/qq_33882671 <br/>
- *      desc   :
+ *      desc   : 独特的电子邮件
 
  每封电子邮件都由一个本地名称和一个域名组成，以 @ 符号分隔。
 
@@ -16,7 +20,7 @@ package com.wk.exercise.leetcode;
 
  除了小写字母，这些电子邮件还可能包含 '.' 或 '+'。
 
- 如果在电子邮件地址的本地名称部分中的某些字符之间添加句点（'.'），则发往那里的邮件将会转发到本地名称中没有点的同一地址。例如，"alice.z@leetcode.com” 和 “alicez@leetcode.com” 会转发到同一电子邮件地址。 （请注意，此规则不适用于域名。）
+ 则发往那里的如果在电子邮件地址的本地名称部分中的某些字符之间添加句点（'.'），邮件将会转发到本地名称中没有点的同一地址。例如，"alice.z@leetcode.com” 和 “alicez@leetcode.com” 会转发到同一电子邮件地址。 （请注意，此规则不适用于域名。）
 
  如果在本地名称中添加加号（'+'），则会忽略第一个加号后面的所有内容。这允许过滤某些电子邮件，例如 m.y+name@email.com 将转发到 my@email.com。 （同样，此规则不适用于域名。）
 
@@ -45,13 +49,29 @@ package com.wk.exercise.leetcode;
 
  * </pre>
  */
-//TODO
+@SuppressWarnings(SuppressConstant.UNUSED)
 public class Q929 implements Q {
     @Override
     public void answer() {
-
+        String[] emails={"test.email+alex@leetcode.com", "test.email@leetcode.com"};
+        System.out.println(numUniqueEmails(emails));
     }
-    public int numUniqueEmails(String[] emails) {
-        return 0;
+    private int numUniqueEmails(String[] emails) {
+        HashSet set=new HashSet<String>();
+        for (String email : emails) {
+            int indexAt=email.indexOf('@');
+            if(indexAt<0){
+                continue;
+            }
+            String suffix=email.substring(indexAt);
+            email=email.substring(0,indexAt);
+            int indexAdd=email.indexOf('+');
+            if(indexAdd>=0){
+                email=email.substring(0,indexAdd);
+            }
+            email=email.replace(".","");
+            set.add(email+suffix);
+        }
+        return set.size();
     }
 }
