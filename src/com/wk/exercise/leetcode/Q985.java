@@ -1,5 +1,7 @@
 package com.wk.exercise.leetcode;
 
+import com.wk.SuppressConstant;
+
 import java.util.Arrays;
 
 /**
@@ -49,7 +51,7 @@ import java.util.Arrays;
  *
  * </pre>
  */
-//todo
+@SuppressWarnings(SuppressConstant.UNUSED)
 public class Q985 implements Q {
 
     @Override
