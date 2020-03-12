@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f6ecfd2-d886-407c-b390-0e8e16ea09b4" name="Default" comment="完善单链表数据结构">
+    <list default="true" id="6f6ecfd2-d886-407c-b390-0e8e16ea09b4" name="Default" comment="提交Q20030301{面试题 10.01. (合并排序的数组)}答案&#10;执行用时 :&#10;0 ms&#10;, 在所有 Java 提交中击败了&#10;100.00%&#10;的用户&#10;内存消耗 :&#10;38.5 MB&#10;, 在所有 Java 提交中击败了&#10;100.00%&#10;的用户">
+      <change afterPath="$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q1071.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q322.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q543.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q994.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/META-INF/LeetCode.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/META-INF/LeetCode.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wk/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wk/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wk/data/structure/TwoForkTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wk/data/structure/TwoForkTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/wk/exercise/leetCode/Q938.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wk/exercise/leetCode/Q938.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q1030.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q1030.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +22,112 @@
   <component name="FavoritesManager">
     <favorites_list name="LeetCode" />
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Q1030.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q1030.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1755">
+              <caret line="65" column="38" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Q543.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q543.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1458">
+              <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Q1013.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q1013.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Q1071.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q1071.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Q994.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q994.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1674">
+              <caret line="64" selection-start-line="64" selection-end-line="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Q1103.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q1103.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Q322.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q322.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="999">
+              <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BubbleSort.kt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wk/order/BubbleSort.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="20" column="16" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Q20030301.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q20030301.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1188">
+              <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wk/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="999">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -30,13 +138,47 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>[</find>
+      <find>address</find>
+      <find>add</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>}</replace>
+      <replace>{</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q985.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/data/structure/TwoForkTree.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/ErgodicType.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q806.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q766.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q1047.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q107.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q1030.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q2020030301.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q20030301.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q994.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q1103.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q322.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q543.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q1013.java" />
+        <option value="$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q1071.java" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -44,13 +186,73 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenProjectNavigator">
+    <option name="groupStructurally" value="true" />
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="79" />
+    <option name="y" value="166" />
+    <option name="width" value="1614" />
+    <option name="height" value="999" />
+  </component>
   <component name="ProjectId" id="1POkLHqNDC6C7kDXZbUvXNhpd9l" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="wk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="wk" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="wk" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="BlockingQueue&#9;PSI&#9;JAVA://java.util.concurrent.BlockingQueue&#10;ClassLoader&#9;PSI&#9;JAVA://java.lang.ClassLoader&#10;PriorityQueue&#9;PSI&#9;JAVA://java.util.PriorityQueue&#10;Stac&#9;PSI&#9;JAVA://java.util.Stack&#10;Integer&#9;PSI&#9;JAVA://java.lang.Integer&#10;String&#9;PSI&#9;JAVA://java.lang.String" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://G:/IDEAProjects/LeetCode/src/com/wk/order/BubbleSort.kt&#10;BlockingQueue&#9;PSI&#9;JAVA://java.util.concurrent.BlockingQueue&#10;ClassLoader&#9;PSI&#9;JAVA://java.lang.ClassLoader&#10;PriorityQueue&#9;PSI&#9;JAVA://java.util.PriorityQueue&#10;Stac&#9;PSI&#9;JAVA://java.util.Stack&#10;Integer&#9;PSI&#9;JAVA://java.lang.Integer&#10;String&#9;PSI&#9;JAVA://java.lang.String" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -83,15 +285,23 @@
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
-      <method v="2">
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
@@ -125,17 +335,32 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" />
       <option name="WORKING_DIRECTORY" />
-      <method v="2">
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG">
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
-      <method v="2">
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
@@ -210,69 +435,30 @@
       <workItem from="1553222504278" duration="1157000" />
       <workItem from="1553316917022" duration="8836000" />
       <workItem from="1553501744506" duration="1543000" />
-    </task>
-    <task id="LOCAL-00004" summary="提交709（转换成小写字母）题目答案">
-      <created>1532563129511</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1532563129511</updated>
-    </task>
-    <task id="LOCAL-00005" summary="提交344（反转字符串）题目答案">
-      <created>1532620196653</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1532620196654</updated>
-    </task>
-    <task id="LOCAL-00006" summary="提交557（反转字符串中的单词 III）题目答案">
-      <created>1532649564078</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1532649564078</updated>
-    </task>
-    <task id="LOCAL-00007" summary="kotlin jar包">
-      <created>1532703826523</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1532703826523</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Merge branch 'master' of https://github.com/wk1995/LeetCode&#10;&#10;# Conflicts:&#10;#&#9;lib/kotlin-reflect.jar&#10;#&#9;lib/kotlin-stdlib-sources.jar&#10;#&#9;lib/kotlin-stdlib.jar&#10;#&#9;lib/kotlin-test.jar">
-      <created>1532703975737</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1532703975737</updated>
-    </task>
-    <task id="LOCAL-00009" summary="提交Q867(转置矩阵)答案">
-      <created>1534422394720</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1534422394720</updated>
-    </task>
-    <task id="LOCAL-00010" summary="提交Q171(Excel表列序号)答案">
-      <created>1534422425477</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1534422425477</updated>
-    </task>
-    <task id="LOCAL-00011" summary="提交Q811(子域名访问计数)答案">
-      <created>1534607588773</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1534607588773</updated>
-    </task>
-    <task id="LOCAL-00012" summary="提交Q258(各位相加)答案">
-      <created>1534640628500</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1534640628500</updated>
+      <workItem from="1581935516996" duration="2124000" />
+      <workItem from="1582030685469" duration="3509000" />
+      <workItem from="1582118946154" duration="4106000" />
+      <workItem from="1582334669809" duration="2893000" />
+      <workItem from="1582416863841" duration="2805000" />
+      <workItem from="1582549674879" duration="7284000" />
+      <workItem from="1582636053462" duration="7137000" />
+      <workItem from="1582722853809" duration="5484000" />
+      <workItem from="1582801705442" duration="5358000" />
+      <workItem from="1582897640835" duration="774000" />
+      <workItem from="1582948826127" duration="1198000" />
+      <workItem from="1582970773942" duration="1219000" />
+      <workItem from="1583050479332" duration="1199000" />
+      <workItem from="1583155145323" duration="5273000" />
+      <workItem from="1583240635503" duration="3644000" />
+      <workItem from="1583294130756" duration="1451000" />
+      <workItem from="1583330318939" duration="1650000" />
+      <workItem from="1583380117308" duration="2664000" />
+      <workItem from="1583590586476" duration="754000" />
+      <workItem from="1583630787361" duration="5936000" />
+      <workItem from="1583761688150" duration="1166000" />
+      <workItem from="1583847736758" duration="936000" />
+      <workItem from="1583934292042" duration="3682000" />
+      <workItem from="1584020870994" duration="3542000" />
     </task>
     <task id="LOCAL-00013" summary="uiDesigner.xml">
       <created>1534640961857</created>
@@ -554,11 +740,117 @@
       <option name="project" value="LOCAL" />
       <updated>1566896795042</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="提交Q985(查询后的偶数和)答案">
+      <created>1581861562977</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1581861562977</updated>
+    </task>
+    <task id="LOCAL-00054" summary="提交Q985(查询后的偶数和)答案---未提交">
+      <created>1581945081297</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1581945081298</updated>
+    </task>
+    <task id="LOCAL-00055" summary="提交Q806(写字符串需要的行数)答案">
+      <created>1582556630257</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1582556630258</updated>
+    </task>
+    <task id="LOCAL-00056" summary="提交Q766(托普利茨矩阵)答案">
+      <created>1582643497734</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1582643497735</updated>
+    </task>
+    <task id="LOCAL-00057" summary="提交Q1047(删除字符串中的所有相邻重复项)答案&#10;执行用时 :605 ms, 在所有 Java 提交中击败了12.66%的用户&#10;内存消耗 :42.5 MB 在所有 Java 提交中击败了5.95%的用户">
+      <created>1582726677957</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1582726677958</updated>
+    </task>
+    <task id="LOCAL-00058" summary="提交Q107(二叉树的层次遍历 II)答案">
+      <created>1582806183493</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1582806183494</updated>
+    </task>
+    <task id="LOCAL-00059" summary="提交Q20030301{面试题 10.01. (合并排序的数组)}答案&#10;执行用时 :0 ms, 在所有 Java 提交中击败了100.00%的用户&#10;内存消耗 :38.5 MB, 在所有 Java 提交中击败了100.00%的用户">
+      <created>1583246766135</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1583246766136</updated>
+    </task>
+    <task id="LOCAL-00060" summary="提交Q1103(分糖果 II)答案&#10;执行用时 :1 ms, 在所有 Java 提交中击败了90.71%的用户&#10;内存消耗 :37 MB, 在所有 Java 提交中击败了5.11%的用户">
+      <created>1583631452939</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1583631452939</updated>
+    </task>
+    <task id="LOCAL-00061" summary="提交Q1013(将数组分成和相等的三个部分)答案&#10;执行用时 :2 ms, 在所有 Java 提交中击败了86.52%的用户&#10;内存消耗 :44.5  MB, 在所有 Java 提交中击败了100.00%的用户">
+      <created>1583937852188</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1583937852188</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179417000" />
+    <option name="totallyTimeSpent" value="258462000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989339" weight="0.1995685" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32901832" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" weight="0.3279396" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4989339" weight="0.26213592" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.32901832" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32901832" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21748401" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.399137" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -569,6 +861,12 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -580,55 +878,26 @@
                   </entry>
                 </map>
               </option>
-              <option name="COLUMN_ORDER" />
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
             </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="master" />
-                </option>
-              </RecentGroup>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="origin/answer" />
-                </option>
-              </RecentGroup>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="origin/master" />
-                </option>
-              </RecentGroup>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="answer" />
-                </option>
-              </RecentGroup>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="加入kotlin的相关包" />
-    <MESSAGE value="新增7（反转整数）解答" />
-    <MESSAGE value="新增8（字符串转整数）解答" />
-    <MESSAGE value="新增9(回文数)解答" />
-    <MESSAGE value="新增10(正则表达式匹配)解答" />
-    <MESSAGE value="提交本地Class文件" />
-    <MESSAGE value="pull from origin master" />
-    <MESSAGE value="提交14（最长公共前缀）答案" />
-    <MESSAGE value="提交682（棒球比赛）答案" />
     <MESSAGE value="提交496（下一个更大元素 I）答案" />
     <MESSAGE value="优化Sort相关类" />
     <MESSAGE value="冒泡排序" />
@@ -645,7 +914,16 @@
     <MESSAGE value="提交Q700(二叉搜索树中的搜索)答案" />
     <MESSAGE value="提交Q942(增减字符串匹配)答案" />
     <MESSAGE value="数组建立二叉树的方法（层级遍历）" />
-    <option name="LAST_COMMIT_MESSAGE" value="数组建立二叉树的方法（层级遍历）" />
+    <MESSAGE value="提交Q985(查询后的偶数和)答案" />
+    <MESSAGE value="提交Q985(查询后的偶数和)答案---未提交" />
+    <MESSAGE value="提交Q806(写字符串需要的行数)答案" />
+    <MESSAGE value="提交Q766(托普利茨矩阵)答案" />
+    <MESSAGE value="提交Q1047(删除字符串中的所有相邻重复项)答案&#10;执行用时 :605 ms, 在所有 Java 提交中击败了12.66%的用户&#10;内存消耗 :42.5 MB 在所有 Java 提交中击败了5.95%的用户" />
+    <MESSAGE value="提交Q107(二叉树的层次遍历 II)答案" />
+    <MESSAGE value="提交Q20030301{面试题 10.01. (合并排序的数组)}答案&#10;执行用时 :0 ms, 在所有 Java 提交中击败了100.00%的用户&#10;内存消耗 :38.5 MB, 在所有 Java 提交中击败了100.00%的用户" />
+    <MESSAGE value="提交Q1103(分糖果 II)答案&#10;执行用时 :1 ms, 在所有 Java 提交中击败了90.71%的用户&#10;内存消耗 :37 MB, 在所有 Java 提交中击败了5.11%的用户" />
+    <MESSAGE value="提交Q1013(将数组分成和相等的三个部分)答案&#10;执行用时 :2 ms, 在所有 Java 提交中击败了86.52%的用户&#10;内存消耗 :44.5  MB, 在所有 Java 提交中击败了100.00%的用户" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交Q1013(将数组分成和相等的三个部分)答案&#10;执行用时 :2 ms, 在所有 Java 提交中击败了86.52%的用户&#10;内存消耗 :44.5  MB, 在所有 Java 提交中击败了100.00%的用户" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -653,53 +931,492 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/wk/exercise/leetCode/Q21.java</url>
           <line>39</line>
+          <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/wk/exercise/leetCode/Q21.java</url>
           <line>45</line>
+          <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/wk/exercise/leetCode/Q589.java</url>
           <line>31</line>
+          <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/wk/exercise/leetCode/Q429.java</url>
           <line>27</line>
+          <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/wk/exercise/leetCode/Q429.java</url>
           <line>37</line>
+          <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/wk/exercise/leetCode/Q137.java</url>
           <line>25</line>
+          <properties />
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/wk/exercise/leetCode/Q500.java</url>
           <line>45</line>
+          <properties />
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/wk/exercise/leetCode/Q938.java</url>
           <line>63</line>
+          <properties />
           <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q766.java</url>
+          <line>141</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q1047.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q1047.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q322.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q1013.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/com/wk/exercise/leetCode/Q503.kt</url>
           <line>51</line>
+          <properties />
           <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
+      <option name="time" value="13" />
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="s.substring(0,i)" language="JAVA" />
+        <watch expression="s.substring(i+2,s.length())" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>s.substring(i+2,s.length())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>s.substring(0,i)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q824.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="46" column="3" lean-forward="true" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q637.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q784.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="36" column="2" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q824.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1269">
+          <caret line="47" column="2" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q1160.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q1160.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q1160.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="51" column="26" lean-forward="true" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q1160.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-743">
+          <caret line="30" column="7" lean-forward="true" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q693.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q824.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q637.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q985.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="58" column="31" lean-forward="true" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q812.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q876.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405">
+          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q784.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="36" column="2" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q566.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="54" column="2" selection-start-line="54" selection-start-column="2" selection-end-line="54" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q908.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1171">
+          <caret line="49" column="2" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q893.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="59" column="2" selection-start-line="59" selection-start-column="2" selection-end-line="59" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q669.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1782">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Environmental/JDK/Java/jdk1.8.0_112/src.zip!/java/util/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="2075" column="18" selection-start-line="2075" selection-start-column="18" selection-end-line="2075" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Environmental/JDK/Java/jdk1.8.0_112/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5022">
+          <caret line="211" column="28" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Environmental/JDK/Java/jdk1.8.0_112/jre/lib/ext/nashorn.jar!/jdk/nashorn/internal/runtime/ListAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Environmental/JDK/Java/jdk1.8.0_112/src.zip!/java/util/Deque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4293">
+          <caret line="192" column="17" selection-start-line="192" selection-start-column="17" selection-end-line="192" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Environmental/JDK/Java/jdk1.8.0_112/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1593">
+          <caret line="82" column="26" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/data/structure/TwoForkTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="154" column="45" selection-start-line="154" selection-start-column="45" selection-end-line="154" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/ErgodicType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q821.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q811.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q806.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Environmental/JDK/Java/jdk1.8.0_112/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51246">
+          <caret line="1969" column="46" selection-start-line="1969" selection-start-column="36" selection-end-line="1969" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q1047.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="e#791#833#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q766.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Environmental/JDK/Java/jdk1.8.0_112/src.zip!/com/sun/jmx/remote/internal/ArrayQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Environmental/JDK/Java/jdk1.8.0_112/src.zip!/java/util/ArrayDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="459" column="13" selection-start-line="459" selection-start-column="13" selection-end-line="459" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q107.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="60" column="48" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q1009.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1269">
+          <caret line="47" column="2" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q108.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q13.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="60" column="2" selection-start-line="60" selection-start-column="2" selection-end-line="60" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q191.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q20030301.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q1103.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/order/BubbleSort.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="999">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q322.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="999">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q994.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1674">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q1030.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1755">
+          <caret line="65" column="38" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q543.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1458">
+          <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q1013.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wk/exercise/leetcode/Q1071.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
