@@ -1,6 +1,7 @@
 package com.wk.exercise.leetcode;
 
 import com.wk.SuppressConstant;
+import com.wk.exercise.ByteBounce202010;
 
 /**
  * <pre>
@@ -32,7 +33,7 @@ import com.wk.SuppressConstant;
  * </pre>
  */
 @SuppressWarnings(SuppressConstant.UNUSED)
-public class Q14 implements Q {
+public class Q14 implements Q,ByteBounce202010 {
     @Override
     public void answer() {
         String[] strs = {"dog","racecar","car"};
@@ -66,5 +67,43 @@ public class Q14 implements Q {
         }
 
         return result;
+    }
+
+    /**
+     * 思路：
+     * 从每个字符串的第一个字符开始对比，遍历，
+     * 若全部都相同，放入stringBuilder中，只要有一个不同，则直接抛出
+     * */
+    private String longestCommonPrefix1(String[] strs){
+        if(strs==null){
+            return "";
+        }
+        int size=strs.length;
+        if(size<=0){
+            return "";
+        }
+        StringBuilder result=new StringBuilder();
+        char point='\u0000';
+        for(int i=0;;i++){
+            for(int j=0;j<size;j++){
+                String str=strs[j];
+                if(str==null){
+                    return "";
+                }
+                int length=str.length();
+                if(length<=i){
+                    return result.toString();
+                }
+                if(j==0){
+                    point=str.charAt(i);
+                }else{
+                    if(point!=str.charAt(i)){
+                        return result.toString();
+                    }
+                }
+            }
+            result.append(point);
+        }
+
     }
 }
