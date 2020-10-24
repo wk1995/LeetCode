@@ -1,5 +1,9 @@
 package com.wk.exercise.leetcode;
 
+import com.wk.SuppressConstant;
+
+import java.util.Stack;
+
 /**
  * <pre>
  *      @author : wk
@@ -28,10 +32,17 @@ package com.wk.exercise.leetcode;
 
  * </pre>
  */
+@SuppressWarnings(SuppressConstant.UNUSED)
 public class Q232 implements Q {
     @Override
     public void answer() {
-
+     MyQueue obj = new MyQueue();
+      obj.push(1);
+      obj.push(2);
+        int param_3 = obj.peek();
+      int param_2 = obj.pop();
+     boolean param_4 = obj.empty();
+     System.out.println("param_2: "+param_2+" param_3: "+param_3+"   param_4:  "+param_4);
     }
     /**
      * Your MyQueue object will be instantiated and called as such:
@@ -42,30 +53,46 @@ public class Q232 implements Q {
      * boolean param_4 = obj.empty();
      */
     class MyQueue {
-
+        private Stack<Integer> push;
+        private Stack<Integer> pull;
         /** Initialize your data structure here. */
         public MyQueue() {
-
+            push=new Stack<>();
+            pull=new Stack<>();
         }
 
         /** Push element x to the back of queue. */
         public void push(int x) {
-
+            push.push(x);
         }
 
         /** Removes the element from in front of queue and returns that element. */
         public int pop() {
-            return 0;
+            while (!push.isEmpty()){
+                pull.push(push.pop());
+            }
+            int result= pull.pop();
+            while (!pull.isEmpty()){
+                push.push(pull.pop());
+            }
+            return result;
         }
 
         /** Get the front element. */
         public int peek() {
-            return 0;
+            while (!push.isEmpty()){
+                pull.push(pull.pop());
+            }
+            int result= pull.peek();
+            while (!pull.isEmpty()){
+                push.push(pull.pop());
+            }
+            return result;
         }
 
         /** Returns whether the queue is empty. */
         public boolean empty() {
-            return true;
+            return push.isEmpty();
         }
     }
 }
