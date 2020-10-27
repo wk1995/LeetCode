@@ -76,4 +76,30 @@ public class Q617 implements Q {
         return treeNode;
     }
 
+
+    /**
+     * 执行用时：
+     * 1 ms
+     * , 在所有 Java 提交中击败了
+     * 71.08%
+     * 的用户
+     * 内存消耗：
+     * 39.1 MB
+     * , 在所有 Java 提交中击败了
+     * 40.59%
+     * 的用户
+     * */
+    private TwoForkTree mergeTreeNode1(TwoForkTree leftTreeNode, TwoForkTree rightTreeNode){
+        if(leftTreeNode==null){
+            return  rightTreeNode;
+        }
+        if(rightTreeNode==null){
+            return  leftTreeNode;
+        }
+        TwoForkTree result;
+        result=new TwoForkTree(leftTreeNode.val+rightTreeNode.val);
+        result.left=mergeTreeNode1(leftTreeNode.left,rightTreeNode.left);
+        result.right=mergeTreeNode1(leftTreeNode.right,rightTreeNode.right);
+        return result;
+    }
 }
