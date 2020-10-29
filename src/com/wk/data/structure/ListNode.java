@@ -20,6 +20,8 @@ public class ListNode {
     public ListNode(int x){
         val=x;
     }
+    public ListNode(){
+    }
 
     public static ListNode createListNode( Integer ...xs){
         return createListNode(Arrays.asList(xs));
