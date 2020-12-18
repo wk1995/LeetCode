@@ -13,27 +13,28 @@ import java.util.*;
  *      e-mail : 1226426603@qq.com
  *      time   : 2018/8/20/23:20
  *      desc   : 数据结构->树
+ *      先val为null，在TwoTreeFork为null
  *      GitHub : https://github.com/wk1995
  *      CSDN   : http://blog.csdn.net/qq_33882671
  * </pre>
  */
 @SuppressWarnings(SuppressConstant.UNUSED)
 public class TwoForkTree {
-    public int val;
+    public Integer val;
     public TwoForkTree left;
     public TwoForkTree right;
 
-
-
-    public TwoForkTree(int x) {
-        val = x;
+    public TwoForkTree(Integer x) {
+        this.val=x;
+        this.left=new TwoForkTree(null);
+        this.right=new TwoForkTree(null);
     }
 
-    public TwoForkTree(int val, int left, int right) {
+    public TwoForkTree(Integer val, Integer left, Integer right) {
         this(val, new TwoForkTree(left), new TwoForkTree(right));
     }
 
-    public TwoForkTree(int val, TwoForkTree left, TwoForkTree right) {
+    public TwoForkTree(Integer val, TwoForkTree left, TwoForkTree right) {
         this(val);
         this.left = left;
         this.right = right;
@@ -43,6 +44,10 @@ public class TwoForkTree {
         if (vals == null || vals.length == 0) {
             return null;
         }
+        /*整课数实际的结点数目
+        * null表示TwoTreeFork的val为null
+        * TwoTreeFork为null是不能出现在数组里的
+        * */
         int treeNodeSize = vals.length;
         if (startPosition >= treeNodeSize || vals[startPosition] == null) {
             return null;
@@ -63,8 +68,8 @@ public class TwoForkTree {
                 deque.addLast(result);
                 for (int i = startPosition + 1; i < treeNodeSize; i++) {
                     TwoForkTree next = deque.poll();
-                    if (next == null) {
-                        break;
+                    if (next == null || next.val==null) {
+                        continue;
                     }
                     Integer leftVal = vals[i];
                     if (leftVal != null) {
@@ -96,6 +101,12 @@ public class TwoForkTree {
         return createTwoForkTree(vals.toArray(new Integer[size]), mErgodicType, startPosition1);
     }
 
+    /**第depth层，节点最多的个数*/
+    public static int getDepthMaxNodeCount(int depth){
+        return (int)Math.pow(2, depth - 1);
+    }
+
+
     /**
      *  以树的形式来显示二叉树
      *  思路：
@@ -116,9 +127,8 @@ public class TwoForkTree {
         ArrayDeque<TwoForkTree> arrayDeque=new ArrayDeque<>();
         arrayDeque.add(this);
         for(int depth = 1; depth <= maxDepth; depth++) {
-            //第depth层，节点个数
-            int nodeCount=(int)Math.pow(2, depth - 1);
-            System.out.println("第"+depth+"层，节点个数: "+nodeCount);
+            //第一层结点数固定为1
+            int nodeMaxCount=getDepthMaxNodeCount(depth);
             //第depth层，第一个节点距离左边的空间
             int leftSpacing=(int)Math.pow(2,maxDepth-depth)-1;
             System.out.println("第"+depth+"层，第一个节点距离左边的空间: "+leftSpacing);
@@ -126,18 +136,21 @@ public class TwoForkTree {
             if(depth!=1){
                 int nodeSpace=(int)Math.pow(2,maxDepth-depth+1)-1;
                 System.out.println("第"+depth+"层，节点间隔: "+nodeSpace);
-                for(int index=0;index<nodeCount;index++){
+                for(int index=0;index<nodeMaxCount;index++){
                     TwoForkTree current=arrayDeque.pop();
-                    int value=current.val;
+                    Integer value=current.val;
+                    if(value!=null){
+                        arrayDeque.add(current.left);
+                        arrayDeque.add(current.right);
+                    }
                     if(current.left!=null) {
                         arrayDeque.add(current.left);
                     }
                     if(current.right!=null) {
                         arrayDeque.add(current.right);
                     }
-
                     result.append(value);
-                    if( index==nodeCount-1){
+                    if( index==nodeMaxCount-1){
                         result.append(StringConstants.NEW_LINE);
                     }else {
                         result.append(StringUtils.repeatString(StringConstants.STRING_BLANK_SINGLE, nodeSpace));
@@ -145,7 +158,7 @@ public class TwoForkTree {
                 }
             }else{
                 TwoForkTree current=arrayDeque.pop();
-                int value=current.val;
+                Integer value=current.val;
                 arrayDeque.add(current.left);
                 arrayDeque.add(current.right);
                 result.append(value).append(StringConstants.NEW_LINE);

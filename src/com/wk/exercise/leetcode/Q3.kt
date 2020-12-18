@@ -41,16 +41,15 @@ class Q3:Q {
     }
 
     private fun lengthOfLongestSubstring(s: String): Int {
-        var result=0
-        val m = IntArray(256)
-        var i=0
-        s.toCharArray().forEach {
-            //m[it.toInt()]表示it的上一个位置
-            result=Math.max(result,m[it.toInt()])
-            result=i-result+1
-            i++
-            m[it.toInt()]=i
+        val length=s.length
+        if(length<=1){
+            return length
         }
-        return result
+        var result=0
+        var left=0
+        var right=1
+        return length
+
+
     }
 }
