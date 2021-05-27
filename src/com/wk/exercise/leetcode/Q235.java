@@ -2,6 +2,8 @@ package com.wk.exercise.leetcode;
 
 import com.wk.data.structure.TwoForkTree;
 
+import static com.wk.ErgodicType.STRATUM_LEFT_TO_RIGHT;
+
 /**
  * <pre>
  *      @author : wk <br/>
@@ -18,9 +20,6 @@ import com.wk.data.structure.TwoForkTree;
 
  例如，给定如下二叉搜索树:  root = [6,2,8,0,4,7,9,null,null,3,5]
 
-
-
-  
 
  示例 1:
 
@@ -43,7 +42,8 @@ import com.wk.data.structure.TwoForkTree;
 public class Q235 implements Q {
     @Override
     public void answer() {
-
+        Integer[] rootArray={6,2,8,0,4,7,9,null,null,3,5};
+        TwoForkTree root=TwoForkTree.createTwoForkTree(rootArray,STRATUM_LEFT_TO_RIGHT,0);
     }
     public TwoForkTree lowestCommonAncestor(TwoForkTree root, TwoForkTree p, TwoForkTree q) {
         return null;
